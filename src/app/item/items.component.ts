@@ -14,6 +14,6 @@ export class ItemsComponent implements OnInit {
 
     ngOnInit(): void {
         // @ts-ignore
-        this.cards = this.apiService.getCards();
+        // this.cards = this.apiService.getCards();
     }
 }
