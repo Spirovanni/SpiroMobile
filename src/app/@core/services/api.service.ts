@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import {Card} from '../models/Card';
-import { CookieService } from 'ngx-cookie-service';
+// import { CookieService } from 'ngx-cookie-service';
 
 @Injectable({
   providedIn: 'root'
@@ -14,7 +14,7 @@ export class ApiService {
   });
   constructor(
     private httpClient: HttpClient,
-    private cookieService: CookieService
+    // private cookieService: CookieService
   ) { }
   getCards() {
     return this.httpClient.get<Card[]>(this.baseCardUrl, {headers: this.getAuthHeaders()});
@@ -46,7 +46,7 @@ export class ApiService {
     return this.httpClient.post(`${this.baseUrl}api/users/`, body, {headers: this.getAuthHeaders()});
   }
   getAuthHeaders() {
-    const token = this.cookieService.get('cr-token');
+    const token = 'cr-token';
     return new HttpHeaders({
       'Content-Type': 'application/json',
       Authorization: `Token ${token}`
