@@ -1,0 +1,6 @@
+framework module Pods_SpiroMobile {
+  umbrella header "Pods-SpiroMobile-umbrella.h"
+
+  export *
+  module * { export * }
+}
