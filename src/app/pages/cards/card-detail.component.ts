@@ -1,15 +1,14 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
-
-import { Card } from "./card";
-import { ApiService } from "../@core/services/api.service";
+import { Card } from '../../@core/models/Card';
+import { ApiService } from "../../@core/services/api.service";
 
 @Component({
     selector: "ns-details",
     templateUrl: "./card-detail.component.html",
 })
 export class CardDetailComponent implements OnInit {
-    // card: Card;
+    card: Card;
 
     constructor(
         private apiService: ApiService,

@@ -10,8 +10,14 @@ of writing your own CSS rules. You can learn more about the
 NativeScript core theme at https://github.com/nativescript/theme
 The imported CSS rules must precede all other types of rules.
 */
-@import "~@nativescript/theme/core.scss";
-@import "~@nativescript/theme/grey.scss";
+@import "~@nativescript/theme/core";
+@import "~@nativescript/theme/grey";
+
+@import "~@nativescript/theme/core.compat";
+@import "~@nativescript/theme/blue.compat";
+
+@import '~@nativescript/theme/scss/variables';
+@import '~@nativescript/theme/scss/variables/grey';
 
 @import "app/@theme/styles/theme";
 

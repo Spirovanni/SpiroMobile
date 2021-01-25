@@ -1,10 +1,10 @@
 import { Component, OnInit } from "@angular/core";
+import { ApiService } from "../../@core/services/api.service";
+import { Card } from '../../@core/models/Card';
 
-import { Card } from "./card";
-import { ApiService } from "../@core/services/api.service";
 
 @Component({
-    selector: "ns-items",
+    selector: "ns-cards",
     templateUrl: "./cards.component.html"
 })
 export class CardsComponent implements OnInit {
@@ -15,5 +15,11 @@ export class CardsComponent implements OnInit {
     ngOnInit(): void {
         // @ts-ignore
         // this.cards = this.apiService.getCards();
+        this.apiService.getCards().subscribe(
+            (data) => {
+                this.cards = data;
+            },
+            err => console.log(err)
+        )
     }
 }

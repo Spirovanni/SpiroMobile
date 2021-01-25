@@ -46,7 +46,7 @@ export class ApiService {
     return this.httpClient.post(`${this.baseUrl}api/users/`, body, {headers: this.getAuthHeaders()});
   }
   getAuthHeaders() {
-    const token = 'cr-token';
+    const token = '069bbc38f30919f10c0635ac26d795db437bd4ad';
     return new HttpHeaders({
       'Content-Type': 'application/json',
       Authorization: `Token ${token}`

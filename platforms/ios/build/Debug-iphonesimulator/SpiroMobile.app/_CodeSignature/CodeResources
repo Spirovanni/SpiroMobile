@@ -682,7 +682,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		f9DccDcLInLP/IwKpnb2rfcAVDM=
+		JMaTjw55b01mdcW77hLjkS9Mk5o=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -690,27 +690,23 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		IPKld4USIyHf/5ZBQfCyw/6cxTc=
+		NGIEtFBjhZAw25gHNQub6kPL9f8=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
-		<key>app/04a2744cf29a0a791b4d.hot-update.json</key>
-		<data>
-		n2MSQdVKOZnYzFXpA2faVoUC10U=
-		</data>
 		<key>app/bundle.js</key>
 		<data>
-		xggNeVakpeAKFZhr/NAUyS44sVA=
+		o8tasoYFl+clZ4vjhOaLElZFkis=
 		</data>
 		<key>app/package.json</key>
 		<data>
-		QS4brSBIWF/NPvtOs4EF0tyDdLY=
+		MhzP3Yn7OXcEO+GnG34zKYaVVPI=
 		</data>
 		<key>app/runtime.js</key>
 		<data>
-		UJPF4ac+sAAYKOMAoScYW/ynISA=
+		7ELf7ovqggleD5wG7I3mXTfLtms=
 		</data>
 		<key>app/tns_modules/@nativescript/core/inspector_modules.js</key>
 		<data>
@@ -718,7 +714,7 @@
 		</data>
 		<key>app/vendor.js</key>
 		<data>
-		MsXJsvhiqX6vA8iZcimvXfNx+VE=
+		4aN4+tquA0dtQ3axzsByhOjueHs=
 		</data>
 		<key>build.xcconfig</key>
 		<data>
@@ -1930,11 +1926,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f9DccDcLInLP/IwKpnb2rfcAVDM=
+			JMaTjw55b01mdcW77hLjkS9Mk5o=
 			</data>
 			<key>hash2</key>
 			<data>
-			dtCR9tg1BbtcDuCgYD+qPLs8lhLdPhogkNj2re5YOG8=
+			AKYwRRc9RbdwTV5sbNEraUXUZKB5wh0L/o6gtZ+wfwI=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -1952,55 +1948,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IPKld4USIyHf/5ZBQfCyw/6cxTc=
+			NGIEtFBjhZAw25gHNQub6kPL9f8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y0Efuhh4y+HfsVLTm2h9gkD8CcZCFfqZazaqkJhFHyA=
-			</data>
-		</dict>
-		<key>app/04a2744cf29a0a791b4d.hot-update.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			n2MSQdVKOZnYzFXpA2faVoUC10U=
-			</data>
-			<key>hash2</key>
-			<data>
-			Tf4Jrnw9j98LUEsAOGW1uXtu+bRx1hL/korUdXDWAtU=
+			VluhR6vF2pFpXWOvBkBBKCHzR5H9zau5eV0bMQHRyes=
 			</data>
 		</dict>
 		<key>app/bundle.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xggNeVakpeAKFZhr/NAUyS44sVA=
+			o8tasoYFl+clZ4vjhOaLElZFkis=
 			</data>
 			<key>hash2</key>
 			<data>
-			OXzR/IhvsXystr1mJ+vnKYrjH7gtT4JqoZos19C4New=
+			5oK8oDeCzZzjLDybQIy4mbbEddUq8PzB6H663FnTTPw=
 			</data>
 		</dict>
 		<key>app/package.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QS4brSBIWF/NPvtOs4EF0tyDdLY=
+			MhzP3Yn7OXcEO+GnG34zKYaVVPI=
 			</data>
 			<key>hash2</key>
 			<data>
-			w/wwymAwz7YxT1BDfJUt0bx1eF/GwBOLT80SLEzdiaE=
+			aHyFO9d0UcMfxHUxXtsbXGaDzD+eP/9xbzz+qsQ8Wqc=
 			</data>
 		</dict>
 		<key>app/runtime.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UJPF4ac+sAAYKOMAoScYW/ynISA=
+			7ELf7ovqggleD5wG7I3mXTfLtms=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jx8no2cIpeyHtYplHroUP66yypMo7mq9Joj19CrpjP4=
+			nXaZyFqPNpbbkcHRl84nFNIiPDsRKr+hcqwqyMLtpfk=
 			</data>
 		</dict>
 		<key>app/tns_modules/@nativescript/core/inspector_modules.js</key>
@@ -2018,11 +2003,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MsXJsvhiqX6vA8iZcimvXfNx+VE=
+			4aN4+tquA0dtQ3axzsByhOjueHs=
 			</data>
 			<key>hash2</key>
 			<data>
-			J57o3Mg9lGGlrw+2yl5jdgcCZQIR2OU6QJFJE6Crvaw=
+			WdB/0ObBb8UlvGsTZpEovBhi9kjR7KfuWIg3vOMP+Ak=
 			</data>
 		</dict>
 		<key>build.xcconfig</key>
