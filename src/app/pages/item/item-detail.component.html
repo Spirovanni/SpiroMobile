@@ -1,7 +1,7 @@
 <ActionBar title="Just the Details"></ActionBar>
 
-<FlexboxLayout flexDirection="column">
+<FlexboxLayout ng-if="card" flexDirection="column">
     <FlexboxLayout class="m-15">
-        <Label class="h2" [text]="card?.title"></Label>
+        <Label class="h2" [text]="card.title"></Label>
     </FlexboxLayout>
 </FlexboxLayout>
