@@ -1,6 +1,5 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
-
 import { Card } from "../../@core/models/Card";
 import { ApiService } from "../../@core/services/api.service";
 
@@ -19,6 +18,11 @@ export class ItemDetailComponent implements OnInit {
 
     ngOnInit(): void {
         const id = +this.route.snapshot.params.id;
-        // this.item = this.apiService.getItem(id);
+        this.apiService.getCard(id).subscribe (
+            (data:Card) => {
+                this.card = data;
+            },
+            err => console.log(err)
+        )
     }
 }
