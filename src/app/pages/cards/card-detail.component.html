@@ -2,8 +2,8 @@
 
 <FlexboxLayout flexDirection="column">
     <FlexboxLayout class="m-15">
-        <Label class="h2" [text]="card.id + '. '"></Label>
-        <Label class="h2" [text]="card.title"></Label>
+        <Label class="h2" [textContent]="card.id + '. '"></Label>
+        <Label class="h2" [textContent]="card.title"></Label>
     </FlexboxLayout>
-    <Label class="h4 m-15" []="card.description"></Label>
+    <Label class="h4 m-15" [textContent]="card.description"></Label>
 </FlexboxLayout>

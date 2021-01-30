@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import {Card} from '../models/Card';
+import { Card } from '../models/Card';
 // import { CookieService } from 'ngx-cookie-service';
 
 @Injectable({

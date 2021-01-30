@@ -3,6 +3,8 @@ import { NativeScriptModule, NativeScriptHttpClientModule  } from "@nativescript
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
+import { ItemsComponent } from "./pages/item/items.component";
+import { ItemDetailComponent } from "./pages/item/item-detail.component";
 import { CardDetailComponent  } from "./pages/cards/card-detail.component";
 import { CardsComponent  } from "./pages/cards/cards.component";
 
@@ -17,6 +19,8 @@ import { CardsComponent  } from "./pages/cards/cards.component";
     ],
     declarations: [
         AppComponent,
+        ItemsComponent,
+        ItemDetailComponent,
         CardsComponent,
         CardDetailComponent,
 
