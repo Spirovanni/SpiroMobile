@@ -4,6 +4,7 @@ import { ActivatedRoute } from "@angular/router";
 import { Card } from "../../@core/models/Card";
 import { ApiService } from "../../@core/services/api.service";
 
+
 @Component({
     selector: "ns-details",
     templateUrl: "./item-detail.component.html",
