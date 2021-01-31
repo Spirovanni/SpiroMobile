@@ -20,6 +20,8 @@ The imported CSS rules must precede all other types of rules.
 @import '~@nativescript/theme/scss/variables/grey';
 
 @import "app/@theme/styles/theme";
+@import "app/@theme/styles/base";
+
 
 /* Place any CSS rules you want to apply on both iOS and Android here.
 This is where the vast majority of your CSS code goes. */
@@ -28,6 +30,27 @@ This is where the vast majority of your CSS code goes. */
 The following CSS rule changes the font size of all Buttons that have the
 "-primary" class modifier.
 */
+
 Button.-primary {
     font-size: 18px;
 }
+
+.far {
+    font-family: "Font Awesome 5 Free", "fa-regular-400", serif;
+    font-weight: 400;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands", "fa-brands-400", fantasy;
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free", "fa-solid-900", fantasy;
+}
+
+.ico {
+    font-family: "IcoMoon-Free", serif;
+}
+
+
+

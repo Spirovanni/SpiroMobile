@@ -1,7 +1,13 @@
-<ActionBar title="Just the Details"></ActionBar>
+<ActionBar title="{{card?.title}}"></ActionBar>
 
-<FlexboxLayout ng-if="card" flexDirection="column">
-    <FlexboxLayout class="m-15">
-        <Label class="h2" [text]="card.title"></Label>
-    </FlexboxLayout>
-</FlexboxLayout>
+<StackLayout class="page">
+    <StackLayout orientation="horizontal">
+        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card.avg_rating > 0}"></Label>
+        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card.avg_rating > 1}"></Label>
+        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card.avg_rating > 2}"></Label>
+        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card.avg_rating > 3}"></Label>
+        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card.avg_rating > 4}"></Label>
+        <Label text="({{card.no_of_ratings}})" class="h2"></Label>
+    </StackLayout>
+    <Label class="h2" [text]="card?.description"></Label>
+</StackLayout>
