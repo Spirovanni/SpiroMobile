@@ -10,4 +10,11 @@
         <Label text="({{card.no_of_ratings}})" class="h2"></Label>
     </StackLayout>
     <Label class="h2" [text]="card?.description"></Label>
+    <StackLayout orientation="horizontal">
+        <Label text="Rate it!!" class="h2"></Label>
+        <StackLayout orientation="horizontal">
+            <Label text="&#xf005;"
+                   class="fas h2" [ngClass]=""></Label>
+        </StackLayout>
+    </StackLayout>
 </StackLayout>
