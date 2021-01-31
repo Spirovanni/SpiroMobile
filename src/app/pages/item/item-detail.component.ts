@@ -7,7 +7,7 @@ import { ApiService } from "../../@core/services/api.service";
 @Component({
     selector: "ns-details",
     templateUrl: "./item-detail.component.html",
-    styleUrls: ['./item-detail.componet.scss'],
+    styleUrls: ['./item-detail.component.scss'],
 })
 export class ItemDetailComponent implements OnInit {
     card: Card;
