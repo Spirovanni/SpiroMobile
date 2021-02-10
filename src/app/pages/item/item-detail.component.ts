@@ -2,6 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute, Router } from "@angular/router";
 import { Card } from "../../@core/models/Card";
 import { ApiService } from "../../@core/services/api.service";
+import { RouterExtensions } from "nativescript-angular/router";
 
 
 @Component({

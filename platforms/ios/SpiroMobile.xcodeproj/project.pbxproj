@@ -11,7 +11,6 @@
 		39940D9122C4EF600050DDE1 /* NativeScript.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39940D8C22C4EAAA0050DDE1 /* NativeScript.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		39940E1C22C5DFFF0050DDE1 /* TKLiveSync.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39940E1B22C5DFFF0050DDE1 /* TKLiveSync.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		44B73BB6D2A8442DA4BA1BF8 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 5E52FB199A03410B9C1D09E7 /* build.xcconfig */; };
-		72C291D06CE844FB90FDE395 /* NativeScriptEmbedder.m in Sources */ = {isa = PBXBuildFile; fileRef = 181EA42F60604F818B9CAD97 /* NativeScriptEmbedder.m */; };
 		7DD022F311CB0525D9F19399 /* Pods_SpiroMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01981C642956E1B2A6D66CC /* Pods_SpiroMobile.framework */; };
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
 		8CF39F25A79F43269F15FEF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9520666EDE144856BAB8E9B4 /* LaunchScreen.storyboard */; };
@@ -19,6 +18,7 @@
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
 		F41DF01984BF4BCDB82AE223 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08ECEFE945774B48BB61CAEA /* TNSWidgets.framework */; };
+		7104F945CBF042F09280A65B /* NativeScriptEmbedder.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E5B4AAC8C0433788E53F35 /* NativeScriptEmbedder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,16 +39,13 @@
 
 /* Begin PBXFileReference section */
 		08ECEFE945774B48BB61CAEA /* TNSWidgets.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
-		0BB22C2CAC7D4C81B1F6287B /* module.modulemap */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "../../node_modules/@nativescript/core/platforms/ios/src/module.modulemap"; sourceTree = "<group>"; };
 		10AAEC0DF53347B484EEF441 /* Assets.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SpiroMobile/Resources/Assets.xcassets; sourceTree = "<group>"; };
-		181EA42F60604F818B9CAD97 /* NativeScriptEmbedder.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = NativeScriptEmbedder.m; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.m"; sourceTree = "<group>"; };
 		391174B521F1D7BF00BA2583 /* nativescript-build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "nativescript-build.xcconfig"; path = "internal/nativescript-build.xcconfig"; sourceTree = SOURCE_ROOT; };
 		391174B721F1D99900BA2583 /* plugins-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "plugins-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		391174B821F1D99900BA2583 /* plugins-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "plugins-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
 		39940D8122C4E84C0050DDE1 /* SpiroMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpiroMobile.entitlements; sourceTree = "<group>"; };
 		39940D8C22C4EAAA0050DDE1 /* NativeScript.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NativeScript.xcframework; path = internal/NativeScript.xcframework; sourceTree = "<group>"; };
 		39940E1B22C5DFFF0050DDE1 /* TKLiveSync.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TKLiveSync.xcframework; path = internal/TKLiveSync.xcframework; sourceTree = "<group>"; };
-		3A365634848C42A0851D8E26 /* NativeScriptEmbedder.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = NativeScriptEmbedder.h; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.h"; sourceTree = "<group>"; };
 		42C751E2232B769100186695 /* nativescript-pre-link */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "nativescript-pre-link"; path = "internal/nativescript-pre-link"; sourceTree = SOURCE_ROOT; };
 		42C751E3232B769100186695 /* strip-dynamic-framework-architectures.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "strip-dynamic-framework-architectures.sh"; path = "internal/strip-dynamic-framework-architectures.sh"; sourceTree = SOURCE_ROOT; };
 		42C751E4232B769100186695 /* nsld.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = nsld.sh; path = internal/nsld.sh; sourceTree = SOURCE_ROOT; };
@@ -70,6 +67,9 @@
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		46A1C82A0D7B4AF282ED0D93 /* NativeScriptEmbedder.h */ = {isa = PBXFileReference; name = NativeScriptEmbedder.h; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		11E5B4AAC8C0433788E53F35 /* NativeScriptEmbedder.m */ = {isa = PBXFileReference; name = NativeScriptEmbedder.m; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		19C598811DA74DAC8516F167 /* module.modulemap */ = {isa = PBXFileReference; name = module.modulemap; path = "../../node_modules/@nativescript/core/platforms/ios/src/module.modulemap"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = sourcecode.module-map; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,16 +116,6 @@
 			name = "Build Scripts";
 			sourceTree = "<group>";
 		};
-		7133569282074A578C555770 /* @nativescript/core */ = {
-			isa = PBXGroup;
-			children = (
-				3A365634848C42A0851D8E26 /* NativeScriptEmbedder.h */,
-				181EA42F60604F818B9CAD97 /* NativeScriptEmbedder.m */,
-				0BB22C2CAC7D4C81B1F6287B /* module.modulemap */,
-			);
-			name = "@nativescript/core";
-			sourceTree = "<group>";
-		};
 		858B832518CA111C00AB12DE = {
 			isa = PBXGroup;
 			children = (
@@ -134,8 +124,8 @@
 				858B833018CA111C00AB12DE /* Frameworks */,
 				858B832F18CA111C00AB12DE /* Products */,
 				D10654E80BCF47EFA64D64D8 /* TNSNativeSource */,
-				7133569282074A578C555770 /* @nativescript/core */,
 				3F60E873ED40E8892F7F32AE /* Pods */,
+				F61F8B3165054F8FB03F8E75 /* @nativescript/core */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,6 +192,16 @@
 				5E52FB199A03410B9C1D09E7 /* build.xcconfig */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		F61F8B3165054F8FB03F8E75 /* @nativescript/core */ = {
+			isa = PBXGroup;
+			children = (
+				46A1C82A0D7B4AF282ED0D93 /* NativeScriptEmbedder.h */,
+				11E5B4AAC8C0433788E53F35 /* NativeScriptEmbedder.m */,
+				19C598811DA74DAC8516F167 /* module.modulemap */,
+			);
+			name = "@nativescript/core";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,7 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD62955D1BB2678900AE3A93 /* main.m in Sources */,
-				72C291D06CE844FB90FDE395 /* NativeScriptEmbedder.m in Sources */,
+				7104F945CBF042F09280A65B /* NativeScriptEmbedder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +496,7 @@
 					"\"$(SRCROOT)/internal\"",
 					"\"$(SRCROOT)/../../App_Resources/iOS/src\"",
 					"\"$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/src\"",
+					"\"$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/src\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/SpiroMobile/SpiroMobile-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -525,6 +526,7 @@
 					"$SRCROOT/internal/Swift-Modules",
 					"$(SRCROOT)/internal",
 					"\"$(SRCROOT)/../../App_Resources/iOS/src\"",
+					"\"$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/src\"",
 					"\"$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/src\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/SpiroMobile/SpiroMobile-Info.plist";
