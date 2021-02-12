@@ -10,22 +10,18 @@ of writing your own CSS rules. You can learn more about the
 NativeScript core theme at https://github.com/nativescript/theme
 The imported CSS rules must precede all other types of rules.
 */
-@import "~@nativescript/theme/core";
-@import "~@nativescript/theme/grey";
-
+//@import "~@nativescript/theme/core";
+//@import "~@nativescript/theme/grey";
+//
 @import "~@nativescript/theme/core.compat";
 @import "~@nativescript/theme/blue.compat";
-
+//
 @import '~@nativescript/theme/scss/variables';
 @import '~@nativescript/theme/scss/variables/grey';
-
+//
 @import "app/@theme/styles/theme";
 @import "app/@theme/styles/base";
 
-
-
-@import "app/pages/item/item-detail.component";
-//@import "app/pages/item/item-detail.component";
 
 /* Place any CSS rules you want to apply on both iOS and Android here.
 This is where the vast majority of your CSS code goes. */
@@ -34,28 +30,46 @@ This is where the vast majority of your CSS code goes. */
 The following CSS rule changes the font size of all Buttons that have the
 "-primary" class modifier.
 */
-$fa-font-path: if("font-awesome/", "fonts/font-awesome/") !default;
+
+.page {
+    background-color: #272B38;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+}
+TextField, TextView, Label, .h2 {
+    color: white;
+}
 
 Button.-primary {
     font-size: 18px;
 }
-
 .far {
-    font-family: "Font Awesome 5 Free", "fa-regular-400", serif;
+    font-family: "Font Awesome 5 Free", "fa-regular-400", monospace;
     font-weight: 400;
 }
-
 .fab {
-    font-family: "Font Awesome 5 Brands", "fa-brands-400", fantasy;
+    font-family: "Font Awesome 5 Free", "fa-brands-400", fantasy;
+    font-weight: 400;
 }
-
 .fas {
-    font-family: "Font Awesome 5 Free", "fa-solid-900";
+    font-family: "Font Awesome 5 Free", "fa-solid-900", fantasy;
+    font-weight: 900;
+}
+.orange {
+    color: orange;
+    font-weight: bold;
+}
+.purple {
+    color: purple;
+    font-weight: bold;
+}
+.white {
+    color: white;
+    font-weight: bold;
 }
 
-.ico {
-    font-family: "IcoMoon-Free", serif;
-}
+
 
 
 

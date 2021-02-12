@@ -1,4 +1,6 @@
-<ActionBar title="{{card?.title}}"></ActionBar>
+<ActionBar title="{{card?.title}}" class="nt-action-bar">
+
+</ActionBar>
 
 <StackLayout class="page">
     <StackLayout orientation="horizontal">
@@ -10,11 +12,12 @@
         <Label text="({{card.no_of_ratings}})" class="h2"></Label>
     </StackLayout>
     <Label class="h2" [text]="card.description"></Label>
+    <Label class="fas" style="font-weight: bold" text="&#xf2bb;"></Label>
 
      <StackLayout>
          <Label text="Rate it !!!" class="h2"></Label>
          <StackLayout orientation="horizontal">
-             <Label *ngFor="let rate of [1,2,3,4,5]" text="&#xf005;" class="h1"
+             <Label *ngFor="let rate of [1,2,3,4,5]" text="&#xf005;" class="h1" style="font-weight: bold"
                  [ngClass]="{'fas purple': highlight >= rate, 'far white': highlight < rate}"
                  (tap)="setHightlight(rate)"></Label>
          </StackLayout>
