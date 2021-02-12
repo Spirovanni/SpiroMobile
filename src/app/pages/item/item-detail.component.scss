@@ -1,8 +1,16 @@
-@import "./../../@theme/styles/theme";
-@import "./../../@theme/styles/base";
 
 .fas {
   font-family: "Font Awesome 5 Free", "fa-solid-900", serif ;
+}
+
+.far {
+  font-family: "Font Awesome 5 Free", "fa-regular-400", serif;
+  font-weight: 400;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Free", "fa-brands-400", serif;
+  font-weight: 400;
 }
 
 .page {
@@ -14,5 +22,10 @@
 
 .orange {
   color: orange;
-  outline-width: 18px;
+}
+.purple {
+  color: purple;
+}
+.white {
+  color: white;
 }

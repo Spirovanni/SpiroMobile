@@ -2,19 +2,21 @@
 
 <StackLayout class="page">
     <StackLayout orientation="horizontal">
-        <Label text="&#xf005;" class="far h2" [ngClass]="{'orange': card?.avg_rating > 0}"></Label>
-        <Label text="&#xf005;" class="fas h2" [ngClass]="{'bg-primary': card?.avg_rating > 1}"></Label>
-        <Label text="&#xf005;" class="fas h2" [ngClass]="{'bg-primary': card?.avg_rating > 2}"></Label>
-        <Label text="&#xf005;" class="fas h2" [ngClass]="{'bg-primary': card?.avg_rating > 3}"></Label>
-        <Label text="&#xf005;" class="fas h2" [ngClass]="{'bg-primary': card?.avg_rating > 4}"></Label>
-        <Label text="({{card?.no_of_ratings}})" class="h2"></Label>
+        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card.avg_rating > 0}"></Label>
+        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card.avg_rating > 1}"></Label>
+        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card.avg_rating > 2}"></Label>
+        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card.avg_rating > 3}"></Label>
+        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card.avg_rating > 4}"></Label>
+        <Label text="({{card.no_of_ratings}})" class="h2"></Label>
     </StackLayout>
-    <Label class="h2" [text]="card?.description"></Label>
-    <StackLayout orientation="horizontal">
+    <Label class="h2" [text]="card.description"></Label>
+
+    <StackLayout>
         <Label text="Rate it!!" class="h2"></Label>
         <StackLayout orientation="horizontal">
-            <Label text="&#xf005;"
-                   class="far h2" [ngClass]=""></Label>
+        <Label *ngFor="let rate of [1,2,3,4,5]" text="&#xf005;" class="h1"
+               [ngClass]="{'fas purple': highlight >= rate, 'fas white': highlight < rate}"
+               ></Label>
         </StackLayout>
     </StackLayout>
 </StackLayout>
