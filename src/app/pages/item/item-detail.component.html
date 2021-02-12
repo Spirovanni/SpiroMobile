@@ -1,5 +1,6 @@
 <ActionBar title="{{card?.title}}" class="nt-action-bar">
-
+    <NavigationButton icon="res://ic_arrow_black_24dp" (tap)="goBack()"></NavigationButton>
+    <ActionItem icon="font://&#xf044;" class="fas h2" ios.position="right" (tap)="editClicked()"></ActionItem>
 </ActionBar>
 
 <StackLayout class="page">

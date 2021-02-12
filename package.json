@@ -20,9 +20,7 @@
     "url": "https://github.com/NativeScript/NativeScript/issues"
   },
   "dependencies": {
-    "@angular-devkit/schematics-cli": "^0.1101.1",
     "@angular/animations": "~11.0.0",
-    "@angular/cli": "^11.1.1",
     "@angular/common": "~11.0.0",
     "@angular/compiler": "~11.0.0",
     "@angular/core": "~11.0.0",
@@ -31,17 +29,20 @@
     "@angular/platform-browser-dynamic": "~11.0.0",
     "@angular/router": "~11.0.0",
     "@nativescript/angular": "10.0.0",
-    "nativescript-material-snackbar": "~3.3.2",
     "@nativescript/core": "~7.1.0",
     "@nativescript/theme": "~3.0.0",
+    "@schematics/angular": "^9.1.0",
+    "nativescript-material-snackbar": "~3.3.2",
     "ngx-cookie-service": "^11.0.2",
     "reflect-metadata": "~0.1.12",
     "rxjs": "^6.6.0",
     "zone.js": "~0.11.1"
   },
   "devDependencies": {
+    "@angular/cli": "^11.2.0",
     "@angular/compiler-cli": "~11.0.0",
     "@nativescript/ios": "7.1.1",
+    "@nativescript/schematics": "^11.0.0",
     "@nativescript/types": "~7.0.0",
     "@nativescript/webpack": "~4.0.0",
     "@ngtools/webpack": "~11.0.0",

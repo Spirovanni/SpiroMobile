@@ -126,6 +126,8 @@
 				DE8CD03EBDDD4D0F84C87657 /* TNSNativeSource */,
 				CF06FCD2E72E48C091F9D8AA /* @nativescript/core */,
 				51A79DA697756C5E3DB1427C /* Pods */,
+				2857990A11C8480EA2339E57 /* nativescript-material-snackbar */,
+				AEC2FE8C85614DEDA95D29DD /* nativescript-material-core */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,6 +204,20 @@
 				C8FB02DA15AD49C59F881AB7 /* build.xcconfig */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		2857990A11C8480EA2339E57 /* nativescript-material-snackbar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = nativescript-material-snackbar;
+			sourceTree = "<group>";
+		};
+		AEC2FE8C85614DEDA95D29DD /* nativescript-material-core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = nativescript-material-core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,10 +514,12 @@
 					"\"$(SRCROOT)/internal\"",
 					"\"$(SRCROOT)/../../App_Resources/iOS/src\"",
 					"\"$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/src\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-material-snackbar/platforms/ios/src\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-material-core/platforms/ios/src\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/SpiroMobile/SpiroMobile-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.nativescript.SpiroMobile;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.nativescript.SpiroMobile";
 				PRODUCT_NAME = SpiroMobile;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -528,10 +546,12 @@
 					"$(SRCROOT)/internal",
 					"\"$(SRCROOT)/../../App_Resources/iOS/src\"",
 					"\"$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/src\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-material-snackbar/platforms/ios/src\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-material-core/platforms/ios/src\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/SpiroMobile/SpiroMobile-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.nativescript.SpiroMobile;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.nativescript.SpiroMobile";
 				PRODUCT_NAME = SpiroMobile;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;

@@ -703,7 +703,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		UOSFiDdvwEplib37vTLVCL63Zak=
+		FmI0G06hLWhI0fca8f/nI/nAPMI=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -711,7 +711,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		4/6c+zl6RbE9/VabNjkZr7KteIg=
+		gTi4R/3N9PfX7ZutoPLZJQR7dVI=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -719,7 +719,7 @@
 		</data>
 		<key>app/bundle.js</key>
 		<data>
-		7cb/iFTBFni94dRZ6DOPCNWKQ4U=
+		HaZsyOJ+E6GBa3vg8w6U58OfU7I=
 		</data>
 		<key>app/fonts/fa-brands-400.ttf</key>
 		<data>
@@ -739,7 +739,7 @@
 		</data>
 		<key>app/runtime.js</key>
 		<data>
-		Ahnz91x+hP+zfOH/reF3XbGETgM=
+		c29gs3iPZhFHqwERA9GF2fOy33U=
 		</data>
 		<key>app/tns_modules/@nativescript/core/inspector_modules.js</key>
 		<data>
@@ -747,7 +747,7 @@
 		</data>
 		<key>app/vendor.js</key>
 		<data>
-		Z2wYKAVjjkRIlhsUmMq1GNk9D4M=
+		ucgCtwqfB25tFJkBykmOhlxJB1E=
 		</data>
 		<key>build.xcconfig</key>
 		<data>
@@ -2005,11 +2005,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UOSFiDdvwEplib37vTLVCL63Zak=
+			FmI0G06hLWhI0fca8f/nI/nAPMI=
 			</data>
 			<key>hash2</key>
 			<data>
-			tpKwH/+fgrk8C3E3JBkAR5FeBzYF2HqkqCOXzv6pQqg=
+			189E/iD2xJ3uPIATFvI9HUeh0eL4aI1+FQuwv/pn9+U=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -2027,22 +2027,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4/6c+zl6RbE9/VabNjkZr7KteIg=
+			gTi4R/3N9PfX7ZutoPLZJQR7dVI=
 			</data>
 			<key>hash2</key>
 			<data>
-			zip6Fm7C/1pOBIfHq9ZUOYnZtnnyxJiIwZdtYR8ojfA=
+			E+JiVfb8VqlioQRXuMKBTYqypUPvrjhXC6nOtNDOb20=
 			</data>
 		</dict>
 		<key>app/bundle.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7cb/iFTBFni94dRZ6DOPCNWKQ4U=
+			HaZsyOJ+E6GBa3vg8w6U58OfU7I=
 			</data>
 			<key>hash2</key>
 			<data>
-			FtrVLTvNSVbZ67eEycg0S0vlVvAoxIdK/itJOmP8TGc=
+			Uhl3elOLv0zMy0nvhoGbTe/ffqFDrznSK1E8rQ9uUe4=
 			</data>
 		</dict>
 		<key>app/fonts/fa-brands-400.ttf</key>
@@ -2093,11 +2093,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ahnz91x+hP+zfOH/reF3XbGETgM=
+			c29gs3iPZhFHqwERA9GF2fOy33U=
 			</data>
 			<key>hash2</key>
 			<data>
-			2GDZzFOiDex6QSJcNimXIcWYLylfKkfojcU/L6KCviY=
+			7xn+g/9CwlB+LswOICfzWQATcsGgFW0vGMl7KpR6bl4=
 			</data>
 		</dict>
 		<key>app/tns_modules/@nativescript/core/inspector_modules.js</key>
@@ -2115,11 +2115,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z2wYKAVjjkRIlhsUmMq1GNk9D4M=
+			ucgCtwqfB25tFJkBykmOhlxJB1E=
 			</data>
 			<key>hash2</key>
 			<data>
-			8hGLPPNSKyvAHqcb8NZ7Y2Ur6q1MqO1KzEYRIMplIwE=
+			s1TjZFt58Gn6OEYziT8cblytalzl1fBD/+QABPro9eI=
 			</data>
 		</dict>
 		<key>build.xcconfig</key>

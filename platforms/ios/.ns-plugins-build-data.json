@@ -17,5 +17,11 @@
 		"/Users/spiromax/dev/SpiroMobile/node_modules/@nativescript/core/platforms/ios/typings/objc!MaterialComponents.d.ts": "60442122c268ea4de58663cd8ebacfd4667c867e",
 		"/Users/spiromax/dev/SpiroMobile/node_modules/@nativescript/core/platforms/ios/TNSWidgets.framework/TNSWidgets": "600bd44588ed742f9686d55e287d2b515b1dfc8c",
 		"/Users/spiromax/dev/SpiroMobile/node_modules/@nativescript/core/platforms/ios/TNSWidgets.framework.dSYM.zip": "c15ce07e5b7b5872d0d08332fd1ff461b622d845"
+	},
+	"nativescript-material-snackbar": {
+		"/Users/spiromax/dev/SpiroMobile/node_modules/nativescript-material-snackbar/platforms/ios/Podfile": "35aa4f4914c8038806dac58db06a4cb4d3373c12"
+	},
+	"nativescript-material-core": {
+		"/Users/spiromax/dev/SpiroMobile/node_modules/nativescript-material-core/platforms/ios/Podfile": "cc70379862f1b9e325ce4455e58e6eb9558ea4df"
 	}
 }
