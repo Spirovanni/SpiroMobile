@@ -26,4 +26,14 @@ def post_installNativeScript_CLI_Architecture_Exclusions_0 (installer)
   end
 end
 # End Podfile
+
+# Begin Podfile - /Users/spiromax/dev/SpiroMobile/node_modules/nativescript-material-snackbar/platforms/ios/Podfile
+pod 'MaterialComponents/Snackbar+ColorThemer'
+# End Podfile
+
+# Begin Podfile - /Users/spiromax/dev/SpiroMobile/node_modules/nativescript-material-core/platforms/ios/Podfile
+pod 'MaterialComponents/schemes/Color'
+pod 'MaterialComponents/Ink+ColorThemer'
+
+# End Podfile
 end

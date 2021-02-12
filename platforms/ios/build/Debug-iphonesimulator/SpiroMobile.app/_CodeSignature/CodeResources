@@ -92,14 +92,35 @@
 		<data>
 		V9seeYblV2PjAzYSfmZ4p5ujr50=
 		</data>
+		<key>Frameworks/MDFTextAccessibility.framework/Info.plist</key>
+		<data>
+		R87dIVOxmaq/0kDBTNy+hVYsiZ4=
+		</data>
+		<key>Frameworks/MDFTextAccessibility.framework/MDFTextAccessibility</key>
+		<data>
+		5CRs7kLkuKvgqoG9LQ3iTRyu0+I=
+		</data>
+		<key>Frameworks/MDFTextAccessibility.framework/_CodeSignature/CodeResources</key>
+		<data>
+		50M4hM8MyMhjVtbrYZLoHix+pLs=
+		</data>
 		<key>Frameworks/MaterialComponents.framework/Info.plist</key>
 		<data>
 		Lh1x5xpGheqYG2fIF6aaeb4tH5Q=
 		</data>
 		<key>Frameworks/MaterialComponents.framework/MaterialComponents</key>
 		<data>
-		96Be2AtxbhZ9X+q23BWGiavXXEY=
+		L/VG2SaI4RCq7rHMXyeHaWtAfpk=
 		</data>
+		<key>Frameworks/MaterialComponents.framework/MaterialSnackbar.bundle/Resources/en.lproj/MaterialSnackbar.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Kh9KCW4oA8FxWEAifCCg9rDOE18=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ar.lproj/MaterialTabs.strings</key>
 		<dict>
 			<key>hash</key>
@@ -606,7 +627,7 @@
 		</dict>
 		<key>Frameworks/MaterialComponents.framework/_CodeSignature/CodeResources</key>
 		<data>
-		LqwLkWJFMuculBWda1yyBOQ1Wug=
+		U8/T3rsm3KPjH6JyXt/geCvy/eg=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -682,7 +703,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		JytHZl1LiggJCB7T8gciI2oNzBE=
+		UOSFiDdvwEplib37vTLVCL63Zak=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -690,27 +711,35 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		/Q6C+lFZBAt/owal4k5k//mEpSQ=
+		4/6c+zl6RbE9/VabNjkZr7KteIg=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
-		<key>app/5d19b475fef5d9a901e7.hot-update.json</key>
-		<data>
-		Cil+Ks3ch0lNRpU8GDdhyt1U8hw=
-		</data>
 		<key>app/bundle.js</key>
 		<data>
-		bV6y7CazTg/MHwWAy1RgNFk98bc=
+		7cb/iFTBFni94dRZ6DOPCNWKQ4U=
+		</data>
+		<key>app/fonts/fa-brands-400.ttf</key>
+		<data>
+		HXhmpxtegPU0eg5+zaXXNBfrMtw=
+		</data>
+		<key>app/fonts/fa-regular-400.ttf</key>
+		<data>
+		Ma+JaumIuX6vYfctfj+3cKH2lo4=
+		</data>
+		<key>app/fonts/fa-solid-900.ttf</key>
+		<data>
+		VKGQQvMjL2tY34DwG0sBihGGgJY=
 		</data>
 		<key>app/package.json</key>
 		<data>
-		1Ceop9OSS5pfuZ+hf229EJWC5tU=
+		0b5b5Zlbsb2fwrEFfdJ1tQdUoe8=
 		</data>
 		<key>app/runtime.js</key>
 		<data>
-		qk73758+CEOe2JOAlz5/qQ0jxFU=
+		Ahnz91x+hP+zfOH/reF3XbGETgM=
 		</data>
 		<key>app/tns_modules/@nativescript/core/inspector_modules.js</key>
 		<data>
@@ -718,7 +747,7 @@
 		</data>
 		<key>app/vendor.js</key>
 		<data>
-		ucgCtwqfB25tFJkBykmOhlxJB1E=
+		Z2wYKAVjjkRIlhsUmMq1GNk9D4M=
 		</data>
 		<key>build.xcconfig</key>
 		<data>
@@ -978,6 +1007,39 @@
 			KynVAJed/D/Fy/ymQd4Xu8jJJ1GkVLB+k/8csOV0aZs=
 			</data>
 		</dict>
+		<key>Frameworks/MDFTextAccessibility.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			R87dIVOxmaq/0kDBTNy+hVYsiZ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			CwK9sfz0PDfHFmcIfUlzsqR33IbeMbyIO2kBZGqViS0=
+			</data>
+		</dict>
+		<key>Frameworks/MDFTextAccessibility.framework/MDFTextAccessibility</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5CRs7kLkuKvgqoG9LQ3iTRyu0+I=
+			</data>
+			<key>hash2</key>
+			<data>
+			tCOODlL0HP7cqLvnWkThjmIiFgtdon48nBQbO9vE/FE=
+			</data>
+		</dict>
+		<key>Frameworks/MDFTextAccessibility.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			50M4hM8MyMhjVtbrYZLoHix+pLs=
+			</data>
+			<key>hash2</key>
+			<data>
+			e1N3QKXFtEwjqa5zJSAjfVgn+/6UE2HsAJwANwjfDb4=
+			</data>
+		</dict>
 		<key>Frameworks/MaterialComponents.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
@@ -993,12 +1055,25 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			96Be2AtxbhZ9X+q23BWGiavXXEY=
+			L/VG2SaI4RCq7rHMXyeHaWtAfpk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Py/Td4SKd0t9vC0iMMPysaCNT2MirsHvPO3WYgfaiqA=
+			S1zmATDUomzDoYdz2zPoEdXgkabwGJMFFdB4bm5/7m8=
 			</data>
+		</dict>
+		<key>Frameworks/MaterialComponents.framework/MaterialSnackbar.bundle/Resources/en.lproj/MaterialSnackbar.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Kh9KCW4oA8FxWEAifCCg9rDOE18=
+			</data>
+			<key>hash2</key>
+			<data>
+			VsmIsu4c+yFDwPakuYGRpldOg5j9v2cZBnGdLqlFtgQ=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>Frameworks/MaterialComponents.framework/MaterialTabs.bundle/Resources/ar.lproj/MaterialTabs.strings</key>
 		<dict>
@@ -1732,11 +1807,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LqwLkWJFMuculBWda1yyBOQ1Wug=
+			U8/T3rsm3KPjH6JyXt/geCvy/eg=
 			</data>
 			<key>hash2</key>
 			<data>
-			U54kVybvtg/7nbJ7+NVj/BMNslmtQPlDby2jIlPIOW0=
+			AVNnFC5RBlm7Ll2LQYumd3gi0Tr9zmjJEFYSn1/DpM4=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -1930,11 +2005,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JytHZl1LiggJCB7T8gciI2oNzBE=
+			UOSFiDdvwEplib37vTLVCL63Zak=
 			</data>
 			<key>hash2</key>
 			<data>
-			ygamNkhTSUYn/1vD6SHAzVn0pp5o+NkhPlR3clxoTy8=
+			tpKwH/+fgrk8C3E3JBkAR5FeBzYF2HqkqCOXzv6pQqg=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -1952,55 +2027,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/Q6C+lFZBAt/owal4k5k//mEpSQ=
+			4/6c+zl6RbE9/VabNjkZr7KteIg=
 			</data>
 			<key>hash2</key>
 			<data>
-			D731UkAB03MyqtRE9NlQ/ED7S4mzvHztgq5T0mBpYyA=
-			</data>
-		</dict>
-		<key>app/5d19b475fef5d9a901e7.hot-update.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Cil+Ks3ch0lNRpU8GDdhyt1U8hw=
-			</data>
-			<key>hash2</key>
-			<data>
-			U+DDyBNXrgrJarm9lAxpjG0D87x3h0d4Uh3PrhqyExw=
+			zip6Fm7C/1pOBIfHq9ZUOYnZtnnyxJiIwZdtYR8ojfA=
 			</data>
 		</dict>
 		<key>app/bundle.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bV6y7CazTg/MHwWAy1RgNFk98bc=
+			7cb/iFTBFni94dRZ6DOPCNWKQ4U=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ltc3xAz+FtwM3Gtp1wKXe4Xq1YKhByy8A5IpG1Twje4=
+			FtrVLTvNSVbZ67eEycg0S0vlVvAoxIdK/itJOmP8TGc=
+			</data>
+		</dict>
+		<key>app/fonts/fa-brands-400.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HXhmpxtegPU0eg5+zaXXNBfrMtw=
+			</data>
+			<key>hash2</key>
+			<data>
+			3uA7VZ7xUIL0hkAB1+zFYrL/TdLBp2EEfI/VKRmp7gQ=
+			</data>
+		</dict>
+		<key>app/fonts/fa-regular-400.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ma+JaumIuX6vYfctfj+3cKH2lo4=
+			</data>
+			<key>hash2</key>
+			<data>
+			ljU6kYUWFmB88uf59hUZZ10WEZ3UO01Rvkkwso2iAzA=
+			</data>
+		</dict>
+		<key>app/fonts/fa-solid-900.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VKGQQvMjL2tY34DwG0sBihGGgJY=
+			</data>
+			<key>hash2</key>
+			<data>
+			gwJ7EEFiFqIKDXUiweNnoWlI9FDArGtMDVr3sFq58gc=
 			</data>
 		</dict>
 		<key>app/package.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1Ceop9OSS5pfuZ+hf229EJWC5tU=
+			0b5b5Zlbsb2fwrEFfdJ1tQdUoe8=
 			</data>
 			<key>hash2</key>
 			<data>
-			g7oST5RftiVUxtICPh9bTpaMkaaLFKKgmy1VOe57T0M=
+			IusCl7Bqg81LoztqMS2dJwC6/RScfIb561KWniaRqRc=
 			</data>
 		</dict>
 		<key>app/runtime.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qk73758+CEOe2JOAlz5/qQ0jxFU=
+			Ahnz91x+hP+zfOH/reF3XbGETgM=
 			</data>
 			<key>hash2</key>
 			<data>
-			klOLT4MdKthzY1pcZwUVhGILNQ8NGW7KstoNnn87xOo=
+			2GDZzFOiDex6QSJcNimXIcWYLylfKkfojcU/L6KCviY=
 			</data>
 		</dict>
 		<key>app/tns_modules/@nativescript/core/inspector_modules.js</key>
@@ -2018,11 +2115,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ucgCtwqfB25tFJkBykmOhlxJB1E=
+			Z2wYKAVjjkRIlhsUmMq1GNk9D4M=
 			</data>
 			<key>hash2</key>
 			<data>
-			s1TjZFt58Gn6OEYziT8cblytalzl1fBD/+QABPro9eI=
+			8hGLPPNSKyvAHqcb8NZ7Y2Ur6q1MqO1KzEYRIMplIwE=
 			</data>
 		</dict>
 		<key>build.xcconfig</key>

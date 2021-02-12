@@ -8,6 +8,26 @@
 		<data>
 		y4LPdOAVrIW2RP8ws9foPxMZbcQ=
 		</data>
+		<key>Headers/MDCBasicFontScheme.h</key>
+		<data>
+		Hf3WD+deXnpwvJYTHnrOEHfLfdI=
+		</data>
+		<key>Headers/MDCButton.h</key>
+		<data>
+		Ny86ig4kSA3tbK/CEsF7+ZVsIQ0=
+		</data>
+		<key>Headers/MDCColorScheme.h</key>
+		<data>
+		N7xNebdtlJ7r9Osfkh2l+r+0LXo=
+		</data>
+		<key>Headers/MDCCornerTreatment.h</key>
+		<data>
+		n4gefeaYCARQ02nnoiR1oDO643Y=
+		</data>
+		<key>Headers/MDCEdgeTreatment.h</key>
+		<data>
+		sIrsotcHUwSio2P9El00EdKaz6g=
+		</data>
 		<key>Headers/MDCElevatable.h</key>
 		<data>
 		lE78jsGyqVsQ/t1w2tIjsJxW6bM=
@@ -16,13 +36,33 @@
 		<data>
 		rtpIEvQZtVcowwTzIXFqvSLNTP8=
 		</data>
+		<key>Headers/MDCFlatButton.h</key>
+		<data>
+		UwrbAViV+7CBH/BJc2QIv8qKO2w=
+		</data>
+		<key>Headers/MDCFloatingButton+Animation.h</key>
+		<data>
+		hKq8nbhEAfBKYFuBPVDT6UvP2s8=
+		</data>
+		<key>Headers/MDCFloatingButton.h</key>
+		<data>
+		yYnC3SrEFDBRyHK5m2ZxnLdVYFo=
+		</data>
 		<key>Headers/MDCFontScaler.h</key>
 		<data>
 		uvzCHrDSIFIyycIXCZP2bX7+1T0=
 		</data>
+		<key>Headers/MDCFontScheme.h</key>
+		<data>
+		9o5/cIrTBq7ycd9PrdTuo1RY2Wg=
+		</data>
 		<key>Headers/MDCFontTextStyle.h</key>
 		<data>
 		0m8r6d0YC3qaph5e5rFy1IGiMFk=
+		</data>
+		<key>Headers/MDCInkColorThemer.h</key>
+		<data>
+		JD3GsZYIuiIi7r1egYF1UDWa1qo=
 		</data>
 		<key>Headers/MDCInkGestureRecognizer.h</key>
 		<data>
@@ -36,13 +76,61 @@
 		<data>
 		sMMxwXPP1bP/v9FiZfym7mr9Acg=
 		</data>
+		<key>Headers/MDCKeyboardWatcher.h</key>
+		<data>
+		zliIn+/+crPX7ORgbGqAt61b8dw=
+		</data>
+		<key>Headers/MDCLegacyColorScheme.h</key>
+		<data>
+		hXeyubxqkgONgYvs/wyknjqJV+c=
+		</data>
+		<key>Headers/MDCLegacyFontScheme.h</key>
+		<data>
+		dqi2wAHetunwQhaKZUWfURknGbo=
+		</data>
+		<key>Headers/MDCLegacyTonalColorScheme.h</key>
+		<data>
+		AA1g1bO44nwXmL5MsHcmYSypyRg=
+		</data>
+		<key>Headers/MDCLegacyTonalPalette.h</key>
+		<data>
+		xwLyLYcnR7R0yodoulGaFaqvm0g=
+		</data>
 		<key>Headers/MDCMath.h</key>
 		<data>
 		B2G+XZYH7BIjthr8DZL/NvKrt+M=
 		</data>
+		<key>Headers/MDCOverlayImplementor.h</key>
+		<data>
+		71w25lLGONK+5CIbeuPKQwpEPLQ=
+		</data>
+		<key>Headers/MDCOverlayObserver.h</key>
+		<data>
+		BQRXGfB3vZwmZrpIsyv3f5apehw=
+		</data>
+		<key>Headers/MDCOverlayTransitioning.h</key>
+		<data>
+		OLULzlEm9SraPNg2vOLReQw7Svc=
+		</data>
+		<key>Headers/MDCOverlayWindow.h</key>
+		<data>
+		U+itwz/nce+OhKHX7GmuE2BK17o=
+		</data>
 		<key>Headers/MDCPalettes.h</key>
 		<data>
 		Dvwu+f4gXYt0Is3/wbWHDp0xukE=
+		</data>
+		<key>Headers/MDCPathGenerator.h</key>
+		<data>
+		gU9e2ayI0WnyrK8VgQy5i/Uid1Q=
+		</data>
+		<key>Headers/MDCRaisedButton.h</key>
+		<data>
+		PFVkLfOiGG+/yGn3K4sU99ltr5c=
+		</data>
+		<key>Headers/MDCRectangleShapeGenerator.h</key>
+		<data>
+		DNeGSCXMmz3kspnWUh2a1/MDhOI=
 		</data>
 		<key>Headers/MDCRippleTouchController.h</key>
 		<data>
@@ -52,6 +140,10 @@
 		<data>
 		aZAChpBx+s2D4lRpX56DPaEidu8=
 		</data>
+		<key>Headers/MDCSemanticColorScheme.h</key>
+		<data>
+		hF+nvEZcNjPyci5/YTxU59ei4+0=
+		</data>
 		<key>Headers/MDCShadowElevations.h</key>
 		<data>
 		+VVSYXdt7oKbSL2R80x4H56c3r4=
@@ -59,6 +151,38 @@
 		<key>Headers/MDCShadowLayer.h</key>
 		<data>
 		5c+ZTTzvAaXETcldZhBFOFJzB4g=
+		</data>
+		<key>Headers/MDCShapeGenerating.h</key>
+		<data>
+		VFzNKSv1lgYHB10J9RBtMmpbE/0=
+		</data>
+		<key>Headers/MDCShapedShadowLayer.h</key>
+		<data>
+		iTW/fhQJwS2evYdrfxECpQzNZJA=
+		</data>
+		<key>Headers/MDCShapedView.h</key>
+		<data>
+		sDTfgz8lG09+qMMDzysc2Gvm0ys=
+		</data>
+		<key>Headers/MDCSnackbarAlignment.h</key>
+		<data>
+		OkETTI7Qrqj8pIaOwsrEnVAx8J4=
+		</data>
+		<key>Headers/MDCSnackbarColorThemer.h</key>
+		<data>
+		ZYb2AMA10QuHI4lghkJM0IRXrsk=
+		</data>
+		<key>Headers/MDCSnackbarManager.h</key>
+		<data>
+		rBK01wYHl/PiBWS3dhdsHWATfEI=
+		</data>
+		<key>Headers/MDCSnackbarMessage.h</key>
+		<data>
+		OZPOD/uuBXJuRukRCW/Dvm0KF0U=
+		</data>
+		<key>Headers/MDCSnackbarMessageView.h</key>
+		<data>
+		LM++4ieU3DTswQe4Y/qntG9+rWc=
 		</data>
 		<key>Headers/MDCStatefulRippleView.h</key>
 		<data>
@@ -112,9 +236,25 @@
 		<data>
 		5n0P0jLZaDi9KTFjqW+BiJxuwtU=
 		</data>
+		<key>Headers/MDCTonalColorScheme.h</key>
+		<data>
+		N7xNebdtlJ7r9Osfkh2l+r+0LXo=
+		</data>
+		<key>Headers/MDCTonalPalette.h</key>
+		<data>
+		N7xNebdtlJ7r9Osfkh2l+r+0LXo=
+		</data>
 		<key>Headers/MDCTypography.h</key>
 		<data>
 		hNPbDwdYTBzUGH6qIAkoisMK+Po=
+		</data>
+		<key>Headers/MDCTypographyScheme.h</key>
+		<data>
+		9zSy6fofDyAwGRz888U6FF8/fW0=
+		</data>
+		<key>Headers/MDCTypographyScheming.h</key>
+		<data>
+		DT9zm1ab+wfNSAQxTzB9jZ5H5CA=
 		</data>
 		<key>Headers/MaterialAnimationTiming.h</key>
 		<data>
@@ -124,25 +264,49 @@
 		<data>
 		budVNKcQKrBEVbxfxVk8TKEat5Q=
 		</data>
+		<key>Headers/MaterialButtons.h</key>
+		<data>
+		BO/1Uy1wozCOuzn+ZmhkLdQNBIc=
+		</data>
 		<key>Headers/MaterialColor.h</key>
 		<data>
 		cOziTFyF5qlkqVUotiIbYIPXI5Q=
 		</data>
+		<key>Headers/MaterialColorScheme.h</key>
+		<data>
+		tdwvdPu9vVcKZn171YFyZVgasik=
+		</data>
 		<key>Headers/MaterialComponents-umbrella.h</key>
 		<data>
-		JJmYP10o95dlnUMX2IUkqL8gpFI=
+		nmLUT1sSoBIg2UzWoL3O3nglRh4=
 		</data>
 		<key>Headers/MaterialElevation.h</key>
 		<data>
 		sKLni0e4HBl62sSp6hsCvvkFMxA=
 		</data>
+		<key>Headers/MaterialInk+ColorThemer.h</key>
+		<data>
+		QrzvEyVEqo/31/Ho721BSJzDt7o=
+		</data>
 		<key>Headers/MaterialInk.h</key>
 		<data>
 		w0CGkbiR+3OzfOMGUyt8dFVENrY=
 		</data>
+		<key>Headers/MaterialKeyboardWatcher.h</key>
+		<data>
+		EtNrvVpH0stg1g8ajEA1Blp2SIQ=
+		</data>
 		<key>Headers/MaterialMath.h</key>
 		<data>
 		272Yk4mLsZC3OYo6TwoKO30w0Vs=
+		</data>
+		<key>Headers/MaterialOverlay.h</key>
+		<data>
+		ODz+B7wNTA8IrXCSS7j6JMrFyMg=
+		</data>
+		<key>Headers/MaterialOverlayWindow.h</key>
+		<data>
+		GwetoKtrIAp9y3F1D2eq7yoWNAU=
 		</data>
 		<key>Headers/MaterialPalettes.h</key>
 		<data>
@@ -160,13 +324,41 @@
 		<data>
 		sTsGcQRyqNstNzAlIi3NUL2x/CA=
 		</data>
+		<key>Headers/MaterialShapes.h</key>
+		<data>
+		CuDkLQftjI6kCdZszjnatnZoOXU=
+		</data>
+		<key>Headers/MaterialSnackbar+ColorThemer.h</key>
+		<data>
+		C23yrl1Nh4L2XooRpipEg81k+go=
+		</data>
+		<key>Headers/MaterialSnackbar.h</key>
+		<data>
+		DEVxve1R+weZVOkwUkJPcuizhnk=
+		</data>
 		<key>Headers/MaterialTabs.h</key>
 		<data>
 		BlY9oMqin08x6m2dpbYf27wpPAA=
 		</data>
+		<key>Headers/MaterialThemes.h</key>
+		<data>
+		yu/QtWCNsUgfHicJYNOI54wwwGU=
+		</data>
 		<key>Headers/MaterialTypography.h</key>
 		<data>
 		cFOpmAvadarNqnBds7Z3mzqltKE=
+		</data>
+		<key>Headers/MaterialTypographyScheme+BasicFontScheme.h</key>
+		<data>
+		wIK5K/1v33SGhuUCCJDN7IRPq+U=
+		</data>
+		<key>Headers/MaterialTypographyScheme+Scheming.h</key>
+		<data>
+		GdWZmzqbpTiZ/35GfuWWy7ZGbTk=
+		</data>
+		<key>Headers/MaterialTypographyScheme.h</key>
+		<data>
+		Cib3H2WwdvQ6ckBYmBqv7kWObSM=
 		</data>
 		<key>Headers/UIApplication+AppExtensions.h</key>
 		<data>
@@ -212,6 +404,15 @@
 		<data>
 		Lh1x5xpGheqYG2fIF6aaeb4tH5Q=
 		</data>
+		<key>MaterialSnackbar.bundle/Resources/en.lproj/MaterialSnackbar.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Kh9KCW4oA8FxWEAifCCg9rDOE18=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>MaterialTabs.bundle/Resources/ar.lproj/MaterialTabs.strings</key>
 		<dict>
 			<key>hash</key>
@@ -734,6 +935,61 @@
 			n+TfyCRz2Xgab0KWEe0NQ2XKvVpq2FHp5lYWZM5RHgQ=
 			</data>
 		</dict>
+		<key>Headers/MDCBasicFontScheme.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Hf3WD+deXnpwvJYTHnrOEHfLfdI=
+			</data>
+			<key>hash2</key>
+			<data>
+			R14EAsfp+/zbW9HXWjfObhB1RHw8pwHg+VVDMk1VGL8=
+			</data>
+		</dict>
+		<key>Headers/MDCButton.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ny86ig4kSA3tbK/CEsF7+ZVsIQ0=
+			</data>
+			<key>hash2</key>
+			<data>
+			t1Zi8EIRwn26ADJ02FcjrFSDGMSk/R8XlnMMrohFXlk=
+			</data>
+		</dict>
+		<key>Headers/MDCColorScheme.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			N7xNebdtlJ7r9Osfkh2l+r+0LXo=
+			</data>
+			<key>hash2</key>
+			<data>
+			n4P0zi4Tl5iBcJ6JbrltMLPxxv4mlKvXE6L5x6iTClg=
+			</data>
+		</dict>
+		<key>Headers/MDCCornerTreatment.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n4gefeaYCARQ02nnoiR1oDO643Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			4S/AVBWXbT4RX6+LvahXs+VLlJ0z6T3tQZES+maoqMc=
+			</data>
+		</dict>
+		<key>Headers/MDCEdgeTreatment.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sIrsotcHUwSio2P9El00EdKaz6g=
+			</data>
+			<key>hash2</key>
+			<data>
+			j2JMmd7K/vwJ6xYhSanOBlC3+oomate7ZPIRntGpE4g=
+			</data>
+		</dict>
 		<key>Headers/MDCElevatable.h</key>
 		<dict>
 			<key>hash</key>
@@ -756,6 +1012,39 @@
 			t8Hd2IBVn6XLHlZ0QhtYnftnEKc03rn4f/DqW25i2DM=
 			</data>
 		</dict>
+		<key>Headers/MDCFlatButton.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UwrbAViV+7CBH/BJc2QIv8qKO2w=
+			</data>
+			<key>hash2</key>
+			<data>
+			PzEc3JWluJY3Hd/ABFJOFBo2lwTM4piYUTAP1B7AMjk=
+			</data>
+		</dict>
+		<key>Headers/MDCFloatingButton+Animation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hKq8nbhEAfBKYFuBPVDT6UvP2s8=
+			</data>
+			<key>hash2</key>
+			<data>
+			RT9lbjRNjwUTppblxHs/wRW8q8167fSoYHoz/ecGb18=
+			</data>
+		</dict>
+		<key>Headers/MDCFloatingButton.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yYnC3SrEFDBRyHK5m2ZxnLdVYFo=
+			</data>
+			<key>hash2</key>
+			<data>
+			DpPDImXYQSb8q+sC6rgoTyf6uKIkH2+7elDUiIMfYKw=
+			</data>
+		</dict>
 		<key>Headers/MDCFontScaler.h</key>
 		<dict>
 			<key>hash</key>
@@ -767,6 +1056,17 @@
 			EKJYJaPkAG7WAeMEjXL1kbeY5U/WDzgG3KMUFEtVTw0=
 			</data>
 		</dict>
+		<key>Headers/MDCFontScheme.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9o5/cIrTBq7ycd9PrdTuo1RY2Wg=
+			</data>
+			<key>hash2</key>
+			<data>
+			/yUnMcGS38tTuGyhEwPvglif6wqQ8wDbRhMK+G4uTN8=
+			</data>
+		</dict>
 		<key>Headers/MDCFontTextStyle.h</key>
 		<dict>
 			<key>hash</key>
@@ -776,6 +1076,17 @@
 			<key>hash2</key>
 			<data>
 			S4hwv415SmcT7g7qmsOwNzpZcerRG5ZyegVPaqbEC+s=
+			</data>
+		</dict>
+		<key>Headers/MDCInkColorThemer.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JD3GsZYIuiIi7r1egYF1UDWa1qo=
+			</data>
+			<key>hash2</key>
+			<data>
+			RprTvUzV4+l9UhsOIWN7VhAKRrKTEhZKfFIVvXdv9aw=
 			</data>
 		</dict>
 		<key>Headers/MDCInkGestureRecognizer.h</key>
@@ -811,6 +1122,61 @@
 			mDw4eCjQFWpsQK6DbNvntfJ6z4iYHseEMPCa/mepmYg=
 			</data>
 		</dict>
+		<key>Headers/MDCKeyboardWatcher.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zliIn+/+crPX7ORgbGqAt61b8dw=
+			</data>
+			<key>hash2</key>
+			<data>
+			qeVTwLgvMjLDczcr8NmG/P6+/6yNywCmzoSAXOgTwbw=
+			</data>
+		</dict>
+		<key>Headers/MDCLegacyColorScheme.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hXeyubxqkgONgYvs/wyknjqJV+c=
+			</data>
+			<key>hash2</key>
+			<data>
+			/oXCYtHRQcLSB3k8GPm1v+h8hAit0dCkdGFaxnpei88=
+			</data>
+		</dict>
+		<key>Headers/MDCLegacyFontScheme.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dqi2wAHetunwQhaKZUWfURknGbo=
+			</data>
+			<key>hash2</key>
+			<data>
+			SKhZ4Fodh8kwGMD7+j8A/QEDMvj5wGygcJzLHw0fqmc=
+			</data>
+		</dict>
+		<key>Headers/MDCLegacyTonalColorScheme.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AA1g1bO44nwXmL5MsHcmYSypyRg=
+			</data>
+			<key>hash2</key>
+			<data>
+			pI2jcXmC8Mc/9KCmGHiBKU9774C2ErY4rCjAUFeLfKM=
+			</data>
+		</dict>
+		<key>Headers/MDCLegacyTonalPalette.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xwLyLYcnR7R0yodoulGaFaqvm0g=
+			</data>
+			<key>hash2</key>
+			<data>
+			C+noya6THM6RXLacqYYll88qcjtDMwoPCi4syFmheRs=
+			</data>
+		</dict>
 		<key>Headers/MDCMath.h</key>
 		<dict>
 			<key>hash</key>
@@ -822,6 +1188,50 @@
 			w1rKu/HD73GW/Wy6/kAOxmFGWDfz0uH27PP9PWKSxxU=
 			</data>
 		</dict>
+		<key>Headers/MDCOverlayImplementor.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			71w25lLGONK+5CIbeuPKQwpEPLQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			BT9CFLfufZL93ZQWsfNS1TZrjYLvFUPfUXTMjlRAmss=
+			</data>
+		</dict>
+		<key>Headers/MDCOverlayObserver.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BQRXGfB3vZwmZrpIsyv3f5apehw=
+			</data>
+			<key>hash2</key>
+			<data>
+			Mm511eI7AQ2ruPGMscbj59jVoa620cO426HJjwbMCJE=
+			</data>
+		</dict>
+		<key>Headers/MDCOverlayTransitioning.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OLULzlEm9SraPNg2vOLReQw7Svc=
+			</data>
+			<key>hash2</key>
+			<data>
+			aWX1JRa6InTUbOeyMJcPz8R9VZtpml9TYpzhlxQOApA=
+			</data>
+		</dict>
+		<key>Headers/MDCOverlayWindow.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U+itwz/nce+OhKHX7GmuE2BK17o=
+			</data>
+			<key>hash2</key>
+			<data>
+			ssbkXfZMPxti+nm55v+Wl59/WRbTNGtXgNnOU7ur1/A=
+			</data>
+		</dict>
 		<key>Headers/MDCPalettes.h</key>
 		<dict>
 			<key>hash</key>
@@ -831,6 +1241,39 @@
 			<key>hash2</key>
 			<data>
 			i5QV4dtWH1XQS3OBHD4pBR1YQj7T7uOcdEgCRsJoCfE=
+			</data>
+		</dict>
+		<key>Headers/MDCPathGenerator.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gU9e2ayI0WnyrK8VgQy5i/Uid1Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			DAe3RNSfNbz4qV+5i/sIaef0dNSmvZYdlvvVBGTYXn8=
+			</data>
+		</dict>
+		<key>Headers/MDCRaisedButton.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PFVkLfOiGG+/yGn3K4sU99ltr5c=
+			</data>
+			<key>hash2</key>
+			<data>
+			KDW/BXXKK4wuCfiaDwz7xBWQXdskbnC2c6oXS2cZFAE=
+			</data>
+		</dict>
+		<key>Headers/MDCRectangleShapeGenerator.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DNeGSCXMmz3kspnWUh2a1/MDhOI=
+			</data>
+			<key>hash2</key>
+			<data>
+			KdvAm0SwNHWZVAJOd3sjIdsNgKYIxrNeh/Nc/8S29yQ=
 			</data>
 		</dict>
 		<key>Headers/MDCRippleTouchController.h</key>
@@ -855,6 +1298,17 @@
 			qEMv37700+UqOJUNv1Exqv9AyqkGL0lMHHw7o0ttFds=
 			</data>
 		</dict>
+		<key>Headers/MDCSemanticColorScheme.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hF+nvEZcNjPyci5/YTxU59ei4+0=
+			</data>
+			<key>hash2</key>
+			<data>
+			ULmyDSu5nmSUuB5qEVqwMXFfhr0Mqc9EQbThPn+huuY=
+			</data>
+		</dict>
 		<key>Headers/MDCShadowElevations.h</key>
 		<dict>
 			<key>hash</key>
@@ -875,6 +1329,94 @@
 			<key>hash2</key>
 			<data>
 			bai2vYrEXP0aXDh//wD9vcU+mfzwHO0/EwxhIVhUGyE=
+			</data>
+		</dict>
+		<key>Headers/MDCShapeGenerating.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VFzNKSv1lgYHB10J9RBtMmpbE/0=
+			</data>
+			<key>hash2</key>
+			<data>
+			WuGn/kFaP0SpwyPJG3PV2D19VHZoc3IbLinFZM35sz8=
+			</data>
+		</dict>
+		<key>Headers/MDCShapedShadowLayer.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iTW/fhQJwS2evYdrfxECpQzNZJA=
+			</data>
+			<key>hash2</key>
+			<data>
+			Cje377E3TCZb95VQ7zZcczhKRTP9kTWEdq/6xZHY+o8=
+			</data>
+		</dict>
+		<key>Headers/MDCShapedView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sDTfgz8lG09+qMMDzysc2Gvm0ys=
+			</data>
+			<key>hash2</key>
+			<data>
+			pN+evFlPuE2XHfY4l4yjMBROXtt/A2bj7ouHipQjMvE=
+			</data>
+		</dict>
+		<key>Headers/MDCSnackbarAlignment.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OkETTI7Qrqj8pIaOwsrEnVAx8J4=
+			</data>
+			<key>hash2</key>
+			<data>
+			ddkAsLrO3fJF9pmjisVsbkmvloehomTyfpAIFHl+JfM=
+			</data>
+		</dict>
+		<key>Headers/MDCSnackbarColorThemer.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZYb2AMA10QuHI4lghkJM0IRXrsk=
+			</data>
+			<key>hash2</key>
+			<data>
+			YLJpLQWZ/q4uMiyb3j9uFqmoJ4RWs8N0jDTFCql9ha8=
+			</data>
+		</dict>
+		<key>Headers/MDCSnackbarManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rBK01wYHl/PiBWS3dhdsHWATfEI=
+			</data>
+			<key>hash2</key>
+			<data>
+			2fkJHlOwIoUqaBkidLt0tyPTY6YHBMipGevQiItPwmM=
+			</data>
+		</dict>
+		<key>Headers/MDCSnackbarMessage.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OZPOD/uuBXJuRukRCW/Dvm0KF0U=
+			</data>
+			<key>hash2</key>
+			<data>
+			68OhREdjoIoAbS0/FL50Kt0YQWCRZsBNvbZvKqgRqj4=
+			</data>
+		</dict>
+		<key>Headers/MDCSnackbarMessageView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LM++4ieU3DTswQe4Y/qntG9+rWc=
+			</data>
+			<key>hash2</key>
+			<data>
+			HYSIX5kEEkiBVN0FWCKKRTf10JqcfA37wYrnG0FvIsk=
 			</data>
 		</dict>
 		<key>Headers/MDCStatefulRippleView.h</key>
@@ -1020,6 +1562,28 @@
 			APfqHo0c9dton8wi/9H+3d4UZHlm/PGpbjSrW1yDqiE=
 			</data>
 		</dict>
+		<key>Headers/MDCTonalColorScheme.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			N7xNebdtlJ7r9Osfkh2l+r+0LXo=
+			</data>
+			<key>hash2</key>
+			<data>
+			n4P0zi4Tl5iBcJ6JbrltMLPxxv4mlKvXE6L5x6iTClg=
+			</data>
+		</dict>
+		<key>Headers/MDCTonalPalette.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			N7xNebdtlJ7r9Osfkh2l+r+0LXo=
+			</data>
+			<key>hash2</key>
+			<data>
+			n4P0zi4Tl5iBcJ6JbrltMLPxxv4mlKvXE6L5x6iTClg=
+			</data>
+		</dict>
 		<key>Headers/MDCTypography.h</key>
 		<dict>
 			<key>hash</key>
@@ -1029,6 +1593,28 @@
 			<key>hash2</key>
 			<data>
 			C3/EFkdHaiTCQ31UjTpaQNviFhnHzdcXiUh16spdmr4=
+			</data>
+		</dict>
+		<key>Headers/MDCTypographyScheme.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9zSy6fofDyAwGRz888U6FF8/fW0=
+			</data>
+			<key>hash2</key>
+			<data>
+			NgEjdd2nOYom4Y505Xu8/HZFQNEtVgMWATzBMS/QLaw=
+			</data>
+		</dict>
+		<key>Headers/MDCTypographyScheming.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DT9zm1ab+wfNSAQxTzB9jZ5H5CA=
+			</data>
+			<key>hash2</key>
+			<data>
+			jT/JnP3E7aTUYum46RXt1vGxrGb4+4szfC3/vMeo2m0=
 			</data>
 		</dict>
 		<key>Headers/MaterialAnimationTiming.h</key>
@@ -1053,6 +1639,17 @@
 			yWTpQFPfswi7LPVK+w2+vIzJxoCMW+ZRRpYIIJ8iHAQ=
 			</data>
 		</dict>
+		<key>Headers/MaterialButtons.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BO/1Uy1wozCOuzn+ZmhkLdQNBIc=
+			</data>
+			<key>hash2</key>
+			<data>
+			n3MQBnCD+ofPFkV5IqKaQ7H3QgQgccb0yMmbWjqolNM=
+			</data>
+		</dict>
 		<key>Headers/MaterialColor.h</key>
 		<dict>
 			<key>hash</key>
@@ -1064,15 +1661,26 @@
 			Ogak592yr4t8iPj1Okc57uzVlmU8qYOKlgqMYu9sYVg=
 			</data>
 		</dict>
+		<key>Headers/MaterialColorScheme.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tdwvdPu9vVcKZn171YFyZVgasik=
+			</data>
+			<key>hash2</key>
+			<data>
+			4FEmvEac9Mw7CuQs2GM6wLtwAT+IgjwQvVjLzMbqnPY=
+			</data>
+		</dict>
 		<key>Headers/MaterialComponents-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JJmYP10o95dlnUMX2IUkqL8gpFI=
+			nmLUT1sSoBIg2UzWoL3O3nglRh4=
 			</data>
 			<key>hash2</key>
 			<data>
-			kYK1eXHFoC7EY8qQZhgqq/+HxeXP/Uer5GXpwye3ULI=
+			bk7XyZ5g3kvFl9joe+8ntUC+qijaiKSYdOp/eZjpjk4=
 			</data>
 		</dict>
 		<key>Headers/MaterialElevation.h</key>
@@ -1086,6 +1694,17 @@
 			dArRQdWN9IKw1XBPG5GswU26bdXdk6NpQAsGbsk1DhI=
 			</data>
 		</dict>
+		<key>Headers/MaterialInk+ColorThemer.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QrzvEyVEqo/31/Ho721BSJzDt7o=
+			</data>
+			<key>hash2</key>
+			<data>
+			yJP9HlyeHplQHZbgCTFiXwSV2xNV7IAKGIgzj55a+wk=
+			</data>
+		</dict>
 		<key>Headers/MaterialInk.h</key>
 		<dict>
 			<key>hash</key>
@@ -1097,6 +1716,17 @@
 			Fr3rOLRDTJ3jfUVHfBrG0OAebhi8x+I1lU0YY5orzfU=
 			</data>
 		</dict>
+		<key>Headers/MaterialKeyboardWatcher.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EtNrvVpH0stg1g8ajEA1Blp2SIQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			Wl1G9uuEFhj/y3OLJfFhY/0VptNR6BTfDdXlPsOXBxA=
+			</data>
+		</dict>
 		<key>Headers/MaterialMath.h</key>
 		<dict>
 			<key>hash</key>
@@ -1106,6 +1736,28 @@
 			<key>hash2</key>
 			<data>
 			v+lWRlyAYgpLnrtqUhHtj5R5LTT3SqpgcjPBG6n3gQA=
+			</data>
+		</dict>
+		<key>Headers/MaterialOverlay.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ODz+B7wNTA8IrXCSS7j6JMrFyMg=
+			</data>
+			<key>hash2</key>
+			<data>
+			I149deKBTSxsx9cwzaXjsNjP66ExrywEOdS433dOg38=
+			</data>
+		</dict>
+		<key>Headers/MaterialOverlayWindow.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GwetoKtrIAp9y3F1D2eq7yoWNAU=
+			</data>
+			<key>hash2</key>
+			<data>
+			wkgvgvEriDm7IxJk20q+orKuQK8xrimJg5Gx2pZhd+A=
 			</data>
 		</dict>
 		<key>Headers/MaterialPalettes.h</key>
@@ -1152,6 +1804,39 @@
 			S8AQjVZ6xXMuO+H4yT5iewKJosndM9QXp6W1dYUG1o0=
 			</data>
 		</dict>
+		<key>Headers/MaterialShapes.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CuDkLQftjI6kCdZszjnatnZoOXU=
+			</data>
+			<key>hash2</key>
+			<data>
+			bh1oQHHCr+5FIAa8Kfwg/kRpaQUhFkvVNlmvWC2QZCE=
+			</data>
+		</dict>
+		<key>Headers/MaterialSnackbar+ColorThemer.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			C23yrl1Nh4L2XooRpipEg81k+go=
+			</data>
+			<key>hash2</key>
+			<data>
+			7SGcrnCV0XFEBJNJs4monLOegxFt8Ywjf6GnSaREqKk=
+			</data>
+		</dict>
+		<key>Headers/MaterialSnackbar.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DEVxve1R+weZVOkwUkJPcuizhnk=
+			</data>
+			<key>hash2</key>
+			<data>
+			Tx++2S1er+KC01SugZaB04Hr5AcLOByBWCpUgwjs3MQ=
+			</data>
+		</dict>
 		<key>Headers/MaterialTabs.h</key>
 		<dict>
 			<key>hash</key>
@@ -1163,6 +1848,17 @@
 			08rD55fP9CT6kVMJbpdYAx6mI6L5VEkMRya/T5sbEzQ=
 			</data>
 		</dict>
+		<key>Headers/MaterialThemes.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yu/QtWCNsUgfHicJYNOI54wwwGU=
+			</data>
+			<key>hash2</key>
+			<data>
+			Yqg+Nt+uEM3CpC7DA1JArwLu2NUUg0M2paDvUD+uSNU=
+			</data>
+		</dict>
 		<key>Headers/MaterialTypography.h</key>
 		<dict>
 			<key>hash</key>
@@ -1172,6 +1868,39 @@
 			<key>hash2</key>
 			<data>
 			wiBdfALJX7TyOm3g+C4T3ACINPhRrS99udi8q3m6460=
+			</data>
+		</dict>
+		<key>Headers/MaterialTypographyScheme+BasicFontScheme.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wIK5K/1v33SGhuUCCJDN7IRPq+U=
+			</data>
+			<key>hash2</key>
+			<data>
+			4zKQPwUK+CzJ64wDjeaS56jvSI4Uqm2KeHb8wcF725g=
+			</data>
+		</dict>
+		<key>Headers/MaterialTypographyScheme+Scheming.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GdWZmzqbpTiZ/35GfuWWy7ZGbTk=
+			</data>
+			<key>hash2</key>
+			<data>
+			mpr7E0QKNFnhPEtu2narfs+9Pux6wT0RnJnGIP3ToU4=
+			</data>
+		</dict>
+		<key>Headers/MaterialTypographyScheme.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Cib3H2WwdvQ6ckBYmBqv7kWObSM=
+			</data>
+			<key>hash2</key>
+			<data>
+			vdpt/Spc81S1B2mSVJvQNDDzCG+WdiCcOe9O4Deupt8=
 			</data>
 		</dict>
 		<key>Headers/UIApplication+AppExtensions.h</key>
@@ -1283,6 +2012,19 @@
 			<data>
 			y/ZGwFZ1LjN5fpu+EL1FI+Pp7OqMjKt5apIkF+LnadA=
 			</data>
+		</dict>
+		<key>MaterialSnackbar.bundle/Resources/en.lproj/MaterialSnackbar.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Kh9KCW4oA8FxWEAifCCg9rDOE18=
+			</data>
+			<key>hash2</key>
+			<data>
+			VsmIsu4c+yFDwPakuYGRpldOg5j9v2cZBnGdLqlFtgQ=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>MaterialTabs.bundle/Resources/ar.lproj/MaterialTabs.strings</key>
 		<dict>

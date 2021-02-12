@@ -8,6 +8,15 @@
 		<data>
 		Lh1x5xpGheqYG2fIF6aaeb4tH5Q=
 		</data>
+		<key>MaterialSnackbar.bundle/Resources/en.lproj/MaterialSnackbar.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Kh9KCW4oA8FxWEAifCCg9rDOE18=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>MaterialTabs.bundle/Resources/ar.lproj/MaterialTabs.strings</key>
 		<dict>
 			<key>hash</key>
@@ -515,6 +524,19 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>MaterialSnackbar.bundle/Resources/en.lproj/MaterialSnackbar.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Kh9KCW4oA8FxWEAifCCg9rDOE18=
+			</data>
+			<key>hash2</key>
+			<data>
+			VsmIsu4c+yFDwPakuYGRpldOg5j9v2cZBnGdLqlFtgQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>MaterialTabs.bundle/Resources/ar.lproj/MaterialTabs.strings</key>
 		<dict>
 			<key>hash</key>
