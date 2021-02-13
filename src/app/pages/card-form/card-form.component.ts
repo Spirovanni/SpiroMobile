@@ -10,7 +10,7 @@ import { ApiService } from "../../@core/services/api.service";
     moduleId: module.id,
 })
 export class CardFormComponent implements OnInit {
-    card: { description: string; title: string };
+    card: Card;
     cardTitle: string;
 
     constructor(
@@ -24,6 +24,7 @@ export class CardFormComponent implements OnInit {
         if (id >= 0){
             this.getDetails(id);
         } else {
+            // @ts-ignore
             this.card = {title: "", description: ''};
         }
     }

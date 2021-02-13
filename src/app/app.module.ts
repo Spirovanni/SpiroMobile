@@ -1,5 +1,5 @@
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
-import { NativeScriptModule, NativeScriptHttpClientModule  } from "@nativescript/angular";
+import {NativeScriptModule, NativeScriptHttpClientModule, NativeScriptFormsModule} from "@nativescript/angular";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
@@ -7,6 +7,7 @@ import { ItemsComponent } from "./pages/item/items.component";
 import { ItemDetailComponent } from "./pages/item/item-detail.component";
 import { CardDetailComponent  } from "./pages/cards/card-detail.component";
 import { CardsComponent  } from "./pages/cards/cards.component";
+import { CardFormComponent } from "./pages/card-form/card-form.component";
 
 @NgModule({
     bootstrap: [
@@ -15,7 +16,8 @@ import { CardsComponent  } from "./pages/cards/cards.component";
     imports: [
         NativeScriptModule,
         AppRoutingModule,
-        NativeScriptHttpClientModule
+        NativeScriptHttpClientModule,
+        NativeScriptFormsModule
     ],
     declarations: [
         AppComponent,
@@ -23,7 +25,7 @@ import { CardsComponent  } from "./pages/cards/cards.component";
         ItemDetailComponent,
         CardsComponent,
         CardDetailComponent,
-
+        CardFormComponent
     ],
     providers: [],
     schemas: [

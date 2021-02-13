@@ -6,6 +6,7 @@ import { ItemsComponent } from "./pages/item/items.component";
 import { ItemDetailComponent } from "./pages/item/item-detail.component";
 import { CardDetailComponent  } from "./pages/cards/card-detail.component";
 import { CardsComponent  } from "./pages/cards/cards.component";
+import { CardFormComponent } from "./pages/card-form/card-form.component"
 
 const routes: Routes = [
     { path: "", redirectTo: "/items", pathMatch: "full" },
@@ -13,6 +14,7 @@ const routes: Routes = [
     { path: "item/:id", component: ItemDetailComponent },
     { path: "cards", component: CardsComponent },
     { path: "card/:id", component: CardDetailComponent },
+    { path: "edit/:id", component: CardFormComponent }
 ];
 
 @NgModule({
