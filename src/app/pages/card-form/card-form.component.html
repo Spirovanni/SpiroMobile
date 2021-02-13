@@ -1,0 +1,13 @@
+<ActionBar title="{{cardTitle}}" class="action-bar">
+    <NavigationButton icon="res://ic_arrow_black_24dp" (tap)="goBack()"></NavigationButton>
+    <ActionItem icon="font://&#xf044;" class="fas h2" ios.position="right" (tap)="editClicked()"></ActionItem>
+</ActionBar>
+
+<StackLayout class="page" *ngIf="card">
+    <Label class="h2" text="Title"></Label>
+    <TextField [(ngModel)]="card.title"></TextField>
+    <Label class="h2" text="Description"></Label>
+    <TextView [(ngModel)]="card.description"></TextView>
+    <Button text="{{card.id ? 'Update' : 'Create'}}" (tap)="saveForm()" class="-primary -rounded-lg"></Button>
+    <Button *ngIf="card.id" text="Delete" (tap)="removeCard()" class="my-button"></Button>
+</StackLayout>
