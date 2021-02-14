@@ -2,7 +2,8 @@ import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute, Router } from "@angular/router";
 import { Card } from "../../@core/models/Card";
 import { ApiService } from "../../@core/services/api.service";
-import {RouterExtensions} from "@nativescript/angular";
+import { RouterExtensions } from "@nativescript/angular";
+import { Frame } from "@nativescript/core/ui/frame";
 
 
 @Component({
@@ -51,4 +52,11 @@ export class ItemDetailComponent implements OnInit {
     }
 
 
+}
+
+export function goBack() {
+    Frame.topmost().goBack();
+}
+export function openSettings() {
+    // implement the custom logic
 }

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Auth } from "../../@core/models/Auth";
 import { ApiService } from '../../@core/services/api.service';
 import { Router } from '@angular/router';
-import { getString, setString } from 'tns-core-modules/application-settings';
+import { getString, setString } from '@nativescript/core/application-settings';
 import { SnackBar } from 'nativescript-material-snackbar';
 
 @Component({

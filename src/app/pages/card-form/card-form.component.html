@@ -1,6 +1,8 @@
 <ActionBar title="{{cardTitle}}" class="action-bar">
-    <NavigationButton icon="res://ic_arrow_black_24dp" (tap)="goBack()"></NavigationButton>
-    <ActionItem icon="font://&#xf044;" class="fas h2" ios.position="right" (tap)="editClicked()"></ActionItem>
+    <NavigationButton icon="font://&#xf104;" class="fas h2" ios.position="left" (tap)="goBack()"></NavigationButton>
+<!--    <ActionItem icon="font://&#xf044;" class="fas h2" ios.position="right" (tap)="editClicked()"></ActionItem>-->
+<!--    <ActionItem icon="font://&#xf044;" class="fas h2" ios.position="right" (tap)="editClicked()"></ActionItem>-->
+    <ActionItem icon="font://&#xf0c7;" class="fas h2" ios.position="right" (tap)="saveForm()"></ActionItem>
 </ActionBar>
 
 <StackLayout class="page" *ngIf="card">
