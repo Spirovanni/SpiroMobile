@@ -9,7 +9,7 @@
     <Label class="h2" text="Title"></Label>
     <TextField [(ngModel)]="card.title"></TextField>
     <Label class="h2" text="Description"></Label>
-    <TextView [(ngModel)]="card.description"></TextView>
+    <TextView [(ngModel)]="card.description" class="h2 textbox"></TextView>
     <Button text="{{card.id ? 'Update' : 'Create'}}" (tap)="saveForm()" class="-primary -rounded-lg"></Button>
     <Button *ngIf="card.id" text="Delete" (tap)="removeCard()" class="my-button"></Button>
 </StackLayout>
