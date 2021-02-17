@@ -43,6 +43,7 @@ export class CardFormComponent implements OnInit {
                 this.card.description).subscribe(
                 result => this.router.navigate(['/items']),
                 err => console.log(err)
+
             )
         } else {
             this.apiService.createCard(this.card.title,

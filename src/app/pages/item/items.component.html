@@ -11,6 +11,8 @@ The ActionBar is the NativeScript common abstraction over the Android ActionBar 
 http://docs.nativescript.org/ui/action-bar
 -->
 <ActionBar title="Spirovanni Mobile Application">
+    <NavigationButton visibility="collapsed"></NavigationButton>
+    <ActionItem icon="font://&#xf2f5;" class="fas h2" ios.position="right" (tap)="logout()"></ActionItem>
 </ActionBar>
 
 <!--
@@ -23,12 +25,13 @@ These components make use of the NativeScript core theme, which styles them with
 The theme also provides a set of helper class names such as p-20, h1, h2, and text-center to enhance styling.
 You can learn more about the NativeScript core theme at https://github.com/nativescript/theme
 -->
-<StackLayout>
-    <ListView [items]="cards">
+<StackLayout class="page">
+    <ListView [items]="cards" class="list">
         <ng-template let-item="item">
-            <StackLayout>
+            <StackLayout class="cards-l">
                 <Label [nsRouterLink]="['/item', item.id]" [text]="item.title"></Label>
             </StackLayout>
         </ng-template>
     </ListView>
+    <Button text="New Card" (tap)="newCard()" class="card-button"></Button>
 </StackLayout>

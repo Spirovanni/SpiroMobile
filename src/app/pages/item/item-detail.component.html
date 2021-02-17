@@ -1,28 +1,28 @@
-<ActionBar title="{{card?.title}}" class="nt-action-bar">
+<ActionBar title="{{card?.title}}" class="action-bar">
     <NavigationButton icon="font://&#xf104;" class="fas h2" ios.position="left" (tap)="goBack()"></NavigationButton>
     <ActionItem icon="font://&#xf044;" class="fas h2" ios.position="right" (tap)="editClicked()"></ActionItem>
-    <ActionItem icon="font://&#xf0c7;" class="fas h2" ios.position="right" (tap)="rateClicked()"></ActionItem>
+<!--    <ActionItem icon="font://&#xf0c7;" class="fas h2" ios.position="right" (tap)="rateClicked()"></ActionItem>-->
 </ActionBar>
 
 <StackLayout class="page">
-    <StackLayout orientation="horizontal">
-        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card.avg_rating > 0}"></Label>
-        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card.avg_rating > 1}"></Label>
-        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card.avg_rating > 2}"></Label>
-        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card.avg_rating > 3}"></Label>
-        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card.avg_rating > 4}"></Label>
+    <StackLayout orientation="horizontal" class="body pull-left">
+        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card?.avg_rating > 0}"></Label>
+        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card?.avg_rating > 1}"></Label>
+        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card?.avg_rating > 2}"></Label>
+        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card?.avg_rating > 3}"></Label>
+        <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card?.avg_rating > 4}"></Label>
         <Label text="({{card.no_of_ratings}})" class="h2"></Label>
     </StackLayout>
-    <Label class="h2" [text]="card.description"></Label>
-    <Label class="fas" style="font-weight: bold" text="&#xf2bb;"></Label>
+    <Label class="h2 desc" [text]="card.description"></Label>
+<!--    <Label class="fas" style="font-weight: bold" text="&#xf2bb;"></Label>-->
 
-     <StackLayout>
+     <StackLayout class="body pull-left">
          <Label text="Rate it !!!" class="h2"></Label>
          <StackLayout orientation="horizontal">
-             <Label *ngFor="let rate of [1,2,3,4,5]" text="&#xf005;" class="h1" style="font-weight: bold"
+             <Label *ngFor="let rate of [1,2,3,4,5]" text="&#xf005;" class="h1 pull-left b-stars" style="font-weight: bold"
                  [ngClass]="{'fas purple': highlight >= rate, 'far white': highlight < rate}"
                  (tap)="setHightlight(rate)"></Label>
          </StackLayout>
-         <Button text="Rate" (tap)="rateClicked()"></Button>
+         <Button text="Rate" (tap)="rateClicked()" class="card-button h2"></Button>
      </StackLayout>
 </StackLayout>

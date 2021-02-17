@@ -10,6 +10,8 @@
     <TextField [(ngModel)]="card.title" class="h2 textbox title"></TextField>
     <Label class="h2" text="Description"></Label>
     <TextView [(ngModel)]="card.description" class="h2 textbox"></TextView>
-    <Button text="{{card.id ? 'Update' : 'Create'}}" (tap)="saveForm()" class="-primary -rounded-lg"></Button>
-    <Button *ngIf="card.id" text="Delete" (tap)="removeCard()" class="my-button"></Button>
+    <div>
+        <Button text="{{card.id ? 'Update' : 'Create'}}" (tap)="saveForm()" class="-primary -rounded-lg my-other-button" id="button1"></Button>
+        <Button *ngIf="card.id" text="Delete" (tap)="removeCard()" class="my-button" id="button2"></Button>
+    </div>
 </StackLayout>

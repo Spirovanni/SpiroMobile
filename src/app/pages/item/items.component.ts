@@ -1,24 +1,42 @@
 import { Component, OnInit } from "@angular/core";
-
+import { Router } from "@angular/router";
 import { Card } from "../../@core/models/Card";
 import { ApiService } from "../../@core/services/api.service";
+import { getString, remove  } from "@nativescript/core/application-settings";
+import { ActionBarComponent  } from "@nativescript/angular/directives/action-bar";
 
 
 @Component({
     selector: "ns-items",
-    templateUrl: "./items.component.html"
+    templateUrl: "./items.component.html",
+    styleUrls: ['./item-detail.component.scss'],
 })
 export class ItemsComponent implements OnInit {
     cards: Array<Card>;
 
-    constructor(private apiService: ApiService) { }
+    constructor(
+        private apiService: ApiService,
+        private router: Router
+    ) { }
 
     ngOnInit(): void {
-        this.apiService.getCards().subscribe(
-            (data) => {
-                this.cards = data;
-            },
-            err => console.log(err)
-        )
+        const myToken = getString("mr-token");
+        if(myToken){
+            this.apiService.getCards().subscribe(
+                (data: Card[]) => {
+                    this.cards = data;
+                },
+                err => console.log(err)
+            )
+        } else {
+            this.router.navigate(['/auth'])
+        }
+    }
+    newCard(){
+        this.router.navigate(['/edit', -1])
+    }
+    logout(){
+        remove("mr-token");
+        this.router.navigate(['/auth'])
     }
 }

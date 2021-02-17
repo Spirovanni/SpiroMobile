@@ -3,12 +3,12 @@ import { Auth } from "../../@core/models/Auth";
 import { ApiService } from '../../@core/services/api.service';
 import { Router } from '@angular/router';
 import { getString, setString } from '@nativescript/core/application-settings';
-import { SnackBar } from 'nativescript-material-snackbar';
+// import { SnackBar } from 'nativescript-material-snackbar';
 
 @Component({
     selector: 'ns-auth',
     templateUrl: './auth.component.html',
-    styleUrls: ['./auth.component.css'],
+    styleUrls: ['./auth.component.scss'],
     moduleId: module.id,
 })
 export class AuthComponent implements OnInit {
@@ -37,8 +37,9 @@ export class AuthComponent implements OnInit {
                     this.loginFunction();
                 },
                 err => {
-                    const snackbar = new SnackBar();
-                    snackbar.simple(`Can't register`);
+                    console.log(err)
+                    // const snackbar = new SnackBar();
+                    // snackbar.simple(`Can't register`);
                 }
             )
         } else {
@@ -54,8 +55,8 @@ export class AuthComponent implements OnInit {
             },
             err => {
                 console.log(err)
-                const snackbar = new SnackBar();
-                snackbar.simple(err.error.non_field_errors[0]);
+                // const snackbar = new SnackBar();
+                // snackbar.simple(err.error.non_field_errors[0]);
             }
         )
     }

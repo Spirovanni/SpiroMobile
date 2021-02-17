@@ -4,7 +4,6 @@
 .fas {
   font-family: "Font Awesome 5 Free", "fa-solid-900" ;
   font-weight: bold;
-
 }
 
 .far {
@@ -20,8 +19,30 @@
 .page {
   background-color: #272B38;
   color: white;
-  padding: 20px;
+  padding: 50px;
   font-size: 18px;
+}
+
+.list {
+  padding: 80px;
+  margin-top: 20px;
+  background-color: #272B38;
+  color: white;
+}
+
+.body {
+  padding: 50px;
+  margin-top: 20px;
+  background-color: #272B38;
+  color: white;
+}
+
+.cards-l {
+  padding-top: 45px;
+}
+
+.b-stars {
+  padding-top: 25px;
 }
 
 .orange {
@@ -33,4 +54,24 @@
 }
 .white {
   color: white;
+}
+
+.card-button {
+  android-elevation: 4;
+  height: 45px;
+  elevation: above;
+  background-color: orange;
+  border-radius: 14px;
+  border-width: 1px;
+  color: #272B38;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 40px;
+  float: left;
+  alignment: left;
+  width: 250px;
+}
+
+.desc {
+  margin-left: 45px;
 }

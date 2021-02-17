@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Card } from '../models/Card';
-// import { CookieService } from 'ngx-cookie-service';
+import { Auth } from '../models/Auth';
+import { getString } from "@nativescript/core/application-settings";
 
 @Injectable({
   providedIn: 'root'
@@ -37,16 +38,17 @@ export class ApiService {
     const body = JSON.stringify({stars: rate});
     return this.httpClient.post(`${this.baseCardUrl}${cardId}/rate_card/`, body, {headers: this.getAuthHeaders()});
   }
-  loginUser(authData) {
+  loginUser(authData: Auth) {
     const body = JSON.stringify(authData);
-    return this.httpClient.post(`${this.baseUrl}auth/`, body, {headers: this.getAuthHeaders()});
+    return this.httpClient.post(`${this.baseUrl}auth/`, body, {headers: this.headers});
   }
+
   registerUser(authData) {
     const body = JSON.stringify(authData);
-    return this.httpClient.post(`${this.baseUrl}api/users/`, body, {headers: this.getAuthHeaders()});
+    return this.httpClient.post(`${this.baseUrl}api/users/`, body, {headers: this.headers});
   }
   getAuthHeaders() {
-    const token = '069bbc38f30919f10c0635ac26d795db437bd4ad';
+    const token = getString("mr-token");
     return new HttpHeaders({
       'Content-Type': 'application/json',
       Authorization: `Token ${token}`

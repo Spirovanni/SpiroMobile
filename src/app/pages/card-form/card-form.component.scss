@@ -19,17 +19,37 @@
 .page {
   background-color: #272B38;
   color: white;
-  padding: 20px;
+  padding: 50px;
   font-size: 18px;
 }
 .my-button {
   android-elevation: 4;
+  elevation: above;
+  width: 40%;
   background-color: red;
   border-radius: 20px;
   border-width: 1px;
   color: whitesmoke;
   font-size: 18px;
   font-weight: bold;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.my-other-button {
+  android-elevation: 4;
+  elevation: above;
+  width: 40%;
+  background-color: darkslategray;
+  border-radius: 20px;
+  border-width: 1px;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 20px;
+  float: left;
+  alignment: left;
 }
 
 .textbox {
@@ -47,4 +67,9 @@
 
 .title {
   width: 600px;
+}
+
+#button1 , #button2 {
+  display: inline-block;
+  /**other codes**/
 }
