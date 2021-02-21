@@ -11,9 +11,9 @@
         <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card?.avg_rating > 2}"></Label>
         <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card?.avg_rating > 3}"></Label>
         <Label text="&#xf005;" class="fas h2" [ngClass]="{'orange': card?.avg_rating > 4}"></Label>
-        <Label text="({{card.no_of_ratings}})" class="h2"></Label>
+        <Label text="({{card?.no_of_ratings}})" class="h2"></Label>
     </StackLayout>
-    <Label class="h2 desc" [text]="card.description"></Label>
+    <Label class="h2 desc" [text]="card?.description"></Label>
 <!--    <Label class="fas" style="font-weight: bold" text="&#xf2bb;"></Label>-->
 
      <StackLayout class="body pull-left">
