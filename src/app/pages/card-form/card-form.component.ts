@@ -6,7 +6,6 @@ import { ApiService } from "../../@core/services/api.service";
 @Component({
     selector: 'ns-card-form',
     templateUrl: './card-form.component.html',
-    styleUrls: ['./card-form.component.scss'],
     moduleId: module.id,
 })
 export class CardFormComponent implements OnInit {

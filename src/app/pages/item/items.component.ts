@@ -8,8 +8,7 @@ import { ActionBarComponent  } from "@nativescript/angular/directives/action-bar
 
 @Component({
     selector: "ns-items",
-    templateUrl: "./items.component.html",
-    styleUrls: ['./item-detail.component.scss'],
+    templateUrl: "./items.component.html"
 })
 export class ItemsComponent implements OnInit {
     cards: Array<Card>;

@@ -8,8 +8,7 @@ import { Frame } from "@nativescript/core/ui/frame";
 
 @Component({
     selector: "ns-details",
-    templateUrl: "./item-detail.component.html",
-    styleUrls: ['./item-detail.component.scss'],
+    templateUrl: "./item-detail.component.html"
 })
 export class ItemDetailComponent implements OnInit {
     card: Card;

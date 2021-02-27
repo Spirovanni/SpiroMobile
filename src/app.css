@@ -10,17 +10,8 @@ of writing your own CSS rules. You can learn more about the
 NativeScript core theme at https://github.com/nativescript/theme
 The imported CSS rules must precede all other types of rules.
 */
-//@import "~@nativescript/theme/core";
-//@import "~@nativescript/theme/grey";
-//
-@import "~@nativescript/theme/core.compat";
-@import "~@nativescript/theme/blue.compat";
-//
-@import '~@nativescript/theme/scss/variables';
-@import '~@nativescript/theme/scss/variables/grey';
-//
-@import "app/@theme/styles/theme";
-@import "app/@theme/styles/base";
+@import "~@nativescript/theme/css/core.css";
+@import '~@nativescript/theme/css/grey.css';
 
 
 /* Place any CSS rules you want to apply on both iOS and Android here.
@@ -68,6 +59,22 @@ Button.-primary {
 .white {
     color: white;
     font-weight: bold;
+}
+
+.card-button {
+    android-elevation: 4;
+    height: 45px;
+    elevation: above;
+    background-color: orange;
+    border-radius: 14px;
+    border-width: 1px;
+    color: #272B38;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    float: left;
+    alignment: left;
+    width: 250px;
 }
 
 
